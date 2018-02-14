@@ -13,6 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		66CBBFA120341F9200AE5FDA /* HeartLikeAnimate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CBBFA320341F9200AE5FDA /* HeartLikeAnimate.framework */; };
+		66CBBFA220341F9200AE5FDA /* Pods_HeartLikeAnimate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CBBFA420341F9200AE5FDA /* Pods_HeartLikeAnimate_Tests.framework */; };
 		80B08D84EDF1E2AA837AE683 /* Pods_HeartLikeAnimate_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C6E77116A66481B94136DB /* Pods_HeartLikeAnimate_Example.framework */; };
 		8EAE7B8AE0104C749F541E33 /* Pods_HeartLikeAnimate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9D0B7967BEB064454237D5 /* Pods_HeartLikeAnimate_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -42,11 +44,13 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		62AD1E97289A6388033E06F8 /* Pods-HeartLikeAnimate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartLikeAnimate_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeartLikeAnimate_Example/Pods-HeartLikeAnimate_Example.release.xcconfig"; sourceTree = "<group>"; };
-		953107DBD84C100E7951CF7A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		AB2755CE08762F8DCEBAF6D7 /* HeartLikeAnimate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HeartLikeAnimate.podspec; path = ../HeartLikeAnimate.podspec; sourceTree = "<group>"; };
+		66CBBFA320341F9200AE5FDA /* HeartLikeAnimate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HeartLikeAnimate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CBBFA420341F9200AE5FDA /* Pods_HeartLikeAnimate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_HeartLikeAnimate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		953107DBD84C100E7951CF7A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AB2755CE08762F8DCEBAF6D7 /* HeartLikeAnimate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HeartLikeAnimate.podspec; path = ../HeartLikeAnimate.podspec; sourceTree = "<group>"; };
 		CCCAE79094E7CC15F87B396D /* Pods-HeartLikeAnimate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartLikeAnimate_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeartLikeAnimate_Example/Pods-HeartLikeAnimate_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D3295E741B509C4EA9C8F103 /* Pods-HeartLikeAnimate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartLikeAnimate_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeartLikeAnimate_Tests/Pods-HeartLikeAnimate_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E2950924C4EF3B9522924323 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E2950924C4EF3B9522924323 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66CBBFA120341F9200AE5FDA /* HeartLikeAnimate.framework in Frameworks */,
+				66CBBFA220341F9200AE5FDA /* Pods_HeartLikeAnimate_Tests.framework in Frameworks */,
 				80B08D84EDF1E2AA837AE683 /* Pods_HeartLikeAnimate_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +159,8 @@
 		84845B747059960B5D6F15B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				66CBBFA320341F9200AE5FDA /* HeartLikeAnimate.framework */,
+				66CBBFA420341F9200AE5FDA /* Pods_HeartLikeAnimate_Tests.framework */,
 				11C6E77116A66481B94136DB /* Pods_HeartLikeAnimate_Example.framework */,
 				5D9D0B7967BEB064454237D5 /* Pods_HeartLikeAnimate_Tests.framework */,
 			);
