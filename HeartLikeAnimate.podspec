@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HeartLikeAnimate'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'HeartLikeAnimate like button.'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,9 @@ ImageView like click animate holdpress and click
 
   s.source_files = 'HeartLikeAnimate/Classes/**/*'
   
-  s.resource_bundles = {
-    'HeartLikeAnimate' => ['HeartLikeAnimate/Assets/*.png']
-  }
+  # s.resource_bundles = {
+  #  'HeartLikeAnimate' => ['HeartLikeAnimate/Assets/*.png']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
