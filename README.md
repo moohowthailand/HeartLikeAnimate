@@ -22,7 +22,7 @@ pod 'HeartLikeAnimate'
 
 ## Author
 
-methawin, pai.pp@hotmail.co.th
+GEIVIINI
 
 ## License
 
