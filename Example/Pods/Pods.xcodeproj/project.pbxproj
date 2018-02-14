@@ -782,6 +782,178 @@
 		17E378BD319A829AF8FAE541040EA191 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				A6B8548E34C1B210D6BF7A8173C094CB /* HeartLikeAnimate.modulemap */,
+				3A50EE7EE68E997A564503156FC52478 /* HeartLikeAnimate.xcconfig */,
+				61CE5E1037B0A323FB2303D736F3D2EA /* HeartLikeAnimate-dummy.m */,
+				884398A62D6D13CD74DE85CB39A3BD36 /* HeartLikeAnimate-prefix.pch */,
+				181F3D22934A997B8C34E88D9EFE50FC /* HeartLikeAnimate-umbrella.h */,
+				04D7A85E51DCF72F2945EF3910A9B8CE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HeartLikeAnimate";
+			sourceTree = "<group>";
+		};
+		2684F8A00C4ACF49103B50A6B9C969CE /* Pods-HeartLikeAnimate_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AFA939DEB808A32217C0E2F03D825E38 /* Info.plist */,
+				AA3F8307665792160D3F1EBF95735CAD /* Pods-HeartLikeAnimate_Tests.modulemap */,
+				459248943F2BBAAFBF5E7B2903EA8A4D /* Pods-HeartLikeAnimate_Tests-acknowledgements.markdown */,
+				308DD73ACA224F0C267D10E6BD3C0022 /* Pods-HeartLikeAnimate_Tests-acknowledgements.plist */,
+				6476C191CDBF6F0C5E3F7ACA3F629F8E /* Pods-HeartLikeAnimate_Tests-dummy.m */,
+				09FA971ABA0274A0DE83906D6CB6762A /* Pods-HeartLikeAnimate_Tests-frameworks.sh */,
+				85A882EA46D22D7DCFC2F25136271D7F /* Pods-HeartLikeAnimate_Tests-resources.sh */,
+				E0B5BD1AF04F477FEDC6436836AA1763 /* Pods-HeartLikeAnimate_Tests-umbrella.h */,
+				DFDBF7C5033E8848F51A4CCF4585714D /* Pods-HeartLikeAnimate_Tests.debug.xcconfig */,
+				01AF98A52CDA31EFAE664768F2AAD9F9 /* Pods-HeartLikeAnimate_Tests.release.xcconfig */,
+			);
+			name = "Pods-HeartLikeAnimate_Tests";
+			path = "Target Support Files/Pods-HeartLikeAnimate_Tests";
+			sourceTree = "<group>";
+		};
+		2B615113DBF4607AD6D43A82E6CECA41 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				3DA95784254DD9EB0F834723EE8D3C8D /* Core */,
+				FCA9F61EF70CBF95AFAFD113C019B8AE /* Support Files */,
+				E57B0B627473253F6AB1D52E7E2088D9 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		3BE13C4B61BE9B6CECEBC10187A0B67D /* HeartLikeAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				66CBC0BF2034360600AE5FDA /* Assets */,
+				DAA810F5184A6A3F57F6990223A78432 /* Classes */,
+			);
+			path = HeartLikeAnimate;
+			sourceTree = "<group>";
+		};
+		3DA95784254DD9EB0F834723EE8D3C8D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C3D41F703F26B177ACAAD1FFB6C0AAE1 /* FBSnapshotTestCase.h */,
+				B5C67BFE2590E6B51BEB2BD4428FEA7E /* FBSnapshotTestCase.m */,
+				689EEE4B5D2EE989525D994B3D81D715 /* FBSnapshotTestCasePlatform.h */,
+				445B5D0FA45396EF0BB8E92D62546F80 /* FBSnapshotTestCasePlatform.m */,
+				1AD41EB748BF83453B0E36E7ACB021BF /* FBSnapshotTestController.h */,
+				795A90F46534585D6C119CDB2FE89316 /* FBSnapshotTestController.m */,
+				10EFC5CA9570D0B49DEBF130AE38E738 /* UIApplication+StrictKeyWindow.h */,
+				0F0C43403E98583917CF2D62C515398A /* UIApplication+StrictKeyWindow.m */,
+				57C61E223803DB9246247DB99B53B72C /* UIImage+Compare.h */,
+				918657EA4E3C6E897CB251D29FC692A0 /* UIImage+Compare.m */,
+				37CDB70A47093EFA025A84CC82BDE3B1 /* UIImage+Diff.h */,
+				F893250228CB5A19E805F4C333611455 /* UIImage+Diff.m */,
+				D18C2A53134FEDDD80B6D431CA482157 /* UIImage+Snapshot.h */,
+				022B021D1697A1B527875D5C550412C0 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		518AE2F3412A9E20E50A3D7DC7B4C956 /* Nimble-Snapshots */ = {
+			isa = PBXGroup;
+			children = (
+				EF140300C48CE12B6336E20905BAB042 /* Core */,
+				EF44781C67EF86FF7548B353025D1514 /* Support Files */,
+			);
+			path = "Nimble-Snapshots";
+			sourceTree = "<group>";
+		};
+		51A51B436AA5720E10A75D60CAE1A549 /* Nimble */ = {
+			isa = PBXGroup;
+			children = (
+				55F954044A82CFADBC52547F095D9282 /* AdapterProtocols.swift */,
+				B0D3B0C900E8CAAD1E3FD246B3B4F65A /* AllPass.swift */,
+				9E3B55C53EB21C5DB6665D3A4EDBB295 /* AssertionDispatcher.swift */,
+				2480CEE3C4AE53F3F54A69E133506393 /* AssertionRecorder.swift */,
+				8AEEE59D038DD6ECD5D9D0768105B4C4 /* Async.swift */,
+				F603B296227BBABC70245D537E904B4F /* AsyncMatcherWrapper.swift */,
+				CCE425BCFF433709EF78844B6E3F6B53 /* BeAKindOf.swift */,
+				42B22EC6FE4AA48E5CAD5B01A5D16C11 /* BeAnInstanceOf.swift */,
+				7097BFA4126387C0C17F186FDFCE8946 /* BeCloseTo.swift */,
+				3419B294CA6C43D40AA9176EAC20A068 /* BeEmpty.swift */,
+				B9B625B502FA7FC9EDB2A28355AE9011 /* BeginWith.swift */,
+				01FD8FF250692C040658177EFA90C0E0 /* BeGreaterThan.swift */,
+				1176D15EB10164D6B728ABDCF64DF44F /* BeGreaterThanOrEqualTo.swift */,
+				305683F6DC5ABB2EBE67B92E7DCBAAAB /* BeIdenticalTo.swift */,
+				BB37EB7FD8BBAE989114934A1AABD6C7 /* BeLessThan.swift */,
+				E5F0D51611FC77F830A66707083F3D5C /* BeLessThanOrEqual.swift */,
+				5972DEF6E1E52CBA5B71F172004C9AEA /* BeLogical.swift */,
+				6917F3CBD77923D8B13BCA172F479ED3 /* BeNil.swift */,
+				AFFE37A421B0965F0B0AEA5CFCC4888D /* BeVoid.swift */,
+				EEB27A274F6AB06ECC6865F72275203E /* Contain.swift */,
+				BFAB0B2662AEA74473DF3AD30B70C3CF /* ContainElementSatisfying.swift */,
+				3531CE5F730F1DEC4FDBB944E7A8B12E /* CurrentTestCaseTracker.h */,
+				63105B920EC55A2CC7444F7E0FAE8401 /* CwlBadInstructionException.swift */,
+				911BAA281ED929043C3DE08BDF136325 /* CwlCatchBadInstruction.swift */,
+				162F9491190264048BD2A6E7CD8D9A07 /* CwlCatchException.h */,
+				6A95C68633B48D78F51EB68727ED083F /* CwlCatchException.m */,
+				E9886C16D199E02B88589CED67D85A51 /* CwlCatchException.swift */,
+				8D694368D187804B512BA2E735768105 /* CwlDarwinDefinitions.swift */,
+				329D9CBE260B63EEF23DCEE07DFD1FCF /* CwlMachBadInstructionHandler.h */,
+				9FA7DA19DC0A8E43ED839051EB1B5C66 /* CwlMachBadInstructionHandler.m */,
+				B32BBBDDC59BABFB2B02807EAA9ED7E2 /* CwlPreconditionTesting.h */,
+				6F610D358CCBE4031DC469CFEBA0EC88 /* DSL.h */,
+				EA23EE0A80D318077C28121C5AD51D0D /* DSL.m */,
+				76A7D15DFB7100207E56A080910768F3 /* DSL.swift */,
+				62F3724885AEE3A9FD220E7F2DE0CC84 /* DSL+Wait.swift */,
+				646D0D06E5892DD252C59D60921AE0EE /* EndWith.swift */,
+				EDE8698DB0F11FC587C0881A15B87B25 /* Equal.swift */,
+				451E08D10D9859266EEFBF6749F5AA48 /* Errors.swift */,
+				708FA9A68C102B8FD7CC33D8003F2DB1 /* Expectation.swift */,
+				1335B873C56217DFC32AE983C03A7E63 /* ExpectationMessage.swift */,
+				B1300A88E757F3EDCAC601D580051806 /* Expression.swift */,
+				78C764AC540C4E0FE3477F5F61F53C36 /* FailureMessage.swift */,
+				76CA3B9C2A51D7AADB8F4C6DCF48EDA4 /* Functional.swift */,
+				FA927ABEA5A603E8961BF9D9EE2F03F5 /* HaveCount.swift */,
+				A2372AF16AA32C9907B0C68D9D693950 /* mach_excServer.c */,
+				2FC8E310A0A5BB8BB56CBD3D44C4D7FD /* mach_excServer.h */,
+				37129D278280818CD6E875D41C32A8F3 /* Match.swift */,
+				716B8AB51715BE5FB084529BE052EBB1 /* MatcherFunc.swift */,
+				119CEA0DA2B14DC2FAB627D9F42338F0 /* MatcherProtocols.swift */,
+				7AE93981372F1B5A9AA00030711E5113 /* MatchError.swift */,
+				40BD6C92C04852276647CF58AD53276A /* Nimble.h */,
+				A1BDD669767495985B6B920B8B75808D /* NimbleEnvironment.swift */,
+				11021259140D59C15B4E5E8A32774767 /* NimbleXCTestHandler.swift */,
+				3F6A13633C66B8A587030C9A32C0E7BA /* NMBExceptionCapture.h */,
+				22530E9D334DADCF7884E45EA87E629E /* NMBExceptionCapture.m */,
+				EF864E31CDE2263A0321BDEE8E679E22 /* NMBExpectation.swift */,
+				13AF186DBC7A1387C1B58C1C9300B648 /* NMBObjCMatcher.swift */,
+				E43274BDDF946146643879824D00EC31 /* NMBStringify.h */,
+				D20712BF889E8F3E37D4075A45B3047E /* NMBStringify.m */,
+				722B65BCF6B5C842506A8955E6161CD9 /* PostNotification.swift */,
+				3240723E01763156474E22F05498557E /* Predicate.swift */,
+				10FEF86C1F99EECA85B6BD1DBBEB0C4B /* RaisesException.swift */,
+				8E12EC59B1967A097C51218AEE9AAAF8 /* SatisfyAnyOf.swift */,
+				04D3C0AA5C1097304FF3968C197044E8 /* SourceLocation.swift */,
+				44486D4DB989823442DC4F41407A9336 /* Stringers.swift */,
+				25B26A98F04E23CACE8BF6A277E65DA5 /* ThrowAssertion.swift */,
+				E286B9A3CA7FCE64AA267CBEF4682D51 /* ThrowError.swift */,
+				3559DFB37ED916E7C52954A6BC6C1736 /* ToSucceed.swift */,
+				7632C27C5695470D79E1F7BEA55107F1 /* XCTestObservationCenter+Register.m */,
+				524DC68AB4217443949FF28C4829B38F /* Support Files */,
+			);
+			path = Nimble;
+			sourceTree = "<group>";
+		};
+		524DC68AB4217443949FF28C4829B38F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02B06863E3E06649FA6976C9DAC22498 /* Info.plist */,
+				7D771B7102858BAB21B74EB6D6697B0D /* Nimble.modulemap */,
+				673C860967593DB40D143CB4752456AE /* Nimble.xcconfig */,
+				8DA795C106002DE6A4A1DF154C99443D /* Nimble-dummy.m */,
+				986DEBA5002418F9A514BBBD23C4C82D /* Nimble-prefix.pch */,
+				DCF34BDEAD8E1E90943E6DD1BA7DDC6E /* Nimble-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Nimble";
+			sourceTree = "<group>";
+		};
+		66CBC0BF2034360600AE5FDA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
 				66CBC08E203431A700AE5FDA /* HeartStill00000.png */,
 				66CBC0B0203431AC00AE5FDA /* HeartStill00001.png */,
 				66CBC0A8203431AB00AE5FDA /* HeartStill00002.png */,
@@ -1062,172 +1234,9 @@
 				66CBBFE32034318400AE5FDA /* heart00177.png */,
 				66CBC02D2034318E00AE5FDA /* heart00178.png */,
 				66CBC02B2034318E00AE5FDA /* heart00179.png */,
-				A6B8548E34C1B210D6BF7A8173C094CB /* HeartLikeAnimate.modulemap */,
-				3A50EE7EE68E997A564503156FC52478 /* HeartLikeAnimate.xcconfig */,
-				61CE5E1037B0A323FB2303D736F3D2EA /* HeartLikeAnimate-dummy.m */,
-				884398A62D6D13CD74DE85CB39A3BD36 /* HeartLikeAnimate-prefix.pch */,
-				181F3D22934A997B8C34E88D9EFE50FC /* HeartLikeAnimate-umbrella.h */,
-				04D7A85E51DCF72F2945EF3910A9B8CE /* Info.plist */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HeartLikeAnimate";
-			sourceTree = "<group>";
-		};
-		2684F8A00C4ACF49103B50A6B9C969CE /* Pods-HeartLikeAnimate_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				AFA939DEB808A32217C0E2F03D825E38 /* Info.plist */,
-				AA3F8307665792160D3F1EBF95735CAD /* Pods-HeartLikeAnimate_Tests.modulemap */,
-				459248943F2BBAAFBF5E7B2903EA8A4D /* Pods-HeartLikeAnimate_Tests-acknowledgements.markdown */,
-				308DD73ACA224F0C267D10E6BD3C0022 /* Pods-HeartLikeAnimate_Tests-acknowledgements.plist */,
-				6476C191CDBF6F0C5E3F7ACA3F629F8E /* Pods-HeartLikeAnimate_Tests-dummy.m */,
-				09FA971ABA0274A0DE83906D6CB6762A /* Pods-HeartLikeAnimate_Tests-frameworks.sh */,
-				85A882EA46D22D7DCFC2F25136271D7F /* Pods-HeartLikeAnimate_Tests-resources.sh */,
-				E0B5BD1AF04F477FEDC6436836AA1763 /* Pods-HeartLikeAnimate_Tests-umbrella.h */,
-				DFDBF7C5033E8848F51A4CCF4585714D /* Pods-HeartLikeAnimate_Tests.debug.xcconfig */,
-				01AF98A52CDA31EFAE664768F2AAD9F9 /* Pods-HeartLikeAnimate_Tests.release.xcconfig */,
-			);
-			name = "Pods-HeartLikeAnimate_Tests";
-			path = "Target Support Files/Pods-HeartLikeAnimate_Tests";
-			sourceTree = "<group>";
-		};
-		2B615113DBF4607AD6D43A82E6CECA41 /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				3DA95784254DD9EB0F834723EE8D3C8D /* Core */,
-				FCA9F61EF70CBF95AFAFD113C019B8AE /* Support Files */,
-				E57B0B627473253F6AB1D52E7E2088D9 /* SwiftSupport */,
-			);
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		3BE13C4B61BE9B6CECEBC10187A0B67D /* HeartLikeAnimate */ = {
-			isa = PBXGroup;
-			children = (
-				DAA810F5184A6A3F57F6990223A78432 /* Classes */,
-			);
-			path = HeartLikeAnimate;
-			sourceTree = "<group>";
-		};
-		3DA95784254DD9EB0F834723EE8D3C8D /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				C3D41F703F26B177ACAAD1FFB6C0AAE1 /* FBSnapshotTestCase.h */,
-				B5C67BFE2590E6B51BEB2BD4428FEA7E /* FBSnapshotTestCase.m */,
-				689EEE4B5D2EE989525D994B3D81D715 /* FBSnapshotTestCasePlatform.h */,
-				445B5D0FA45396EF0BB8E92D62546F80 /* FBSnapshotTestCasePlatform.m */,
-				1AD41EB748BF83453B0E36E7ACB021BF /* FBSnapshotTestController.h */,
-				795A90F46534585D6C119CDB2FE89316 /* FBSnapshotTestController.m */,
-				10EFC5CA9570D0B49DEBF130AE38E738 /* UIApplication+StrictKeyWindow.h */,
-				0F0C43403E98583917CF2D62C515398A /* UIApplication+StrictKeyWindow.m */,
-				57C61E223803DB9246247DB99B53B72C /* UIImage+Compare.h */,
-				918657EA4E3C6E897CB251D29FC692A0 /* UIImage+Compare.m */,
-				37CDB70A47093EFA025A84CC82BDE3B1 /* UIImage+Diff.h */,
-				F893250228CB5A19E805F4C333611455 /* UIImage+Diff.m */,
-				D18C2A53134FEDDD80B6D431CA482157 /* UIImage+Snapshot.h */,
-				022B021D1697A1B527875D5C550412C0 /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		518AE2F3412A9E20E50A3D7DC7B4C956 /* Nimble-Snapshots */ = {
-			isa = PBXGroup;
-			children = (
-				EF140300C48CE12B6336E20905BAB042 /* Core */,
-				EF44781C67EF86FF7548B353025D1514 /* Support Files */,
-			);
-			path = "Nimble-Snapshots";
-			sourceTree = "<group>";
-		};
-		51A51B436AA5720E10A75D60CAE1A549 /* Nimble */ = {
-			isa = PBXGroup;
-			children = (
-				55F954044A82CFADBC52547F095D9282 /* AdapterProtocols.swift */,
-				B0D3B0C900E8CAAD1E3FD246B3B4F65A /* AllPass.swift */,
-				9E3B55C53EB21C5DB6665D3A4EDBB295 /* AssertionDispatcher.swift */,
-				2480CEE3C4AE53F3F54A69E133506393 /* AssertionRecorder.swift */,
-				8AEEE59D038DD6ECD5D9D0768105B4C4 /* Async.swift */,
-				F603B296227BBABC70245D537E904B4F /* AsyncMatcherWrapper.swift */,
-				CCE425BCFF433709EF78844B6E3F6B53 /* BeAKindOf.swift */,
-				42B22EC6FE4AA48E5CAD5B01A5D16C11 /* BeAnInstanceOf.swift */,
-				7097BFA4126387C0C17F186FDFCE8946 /* BeCloseTo.swift */,
-				3419B294CA6C43D40AA9176EAC20A068 /* BeEmpty.swift */,
-				B9B625B502FA7FC9EDB2A28355AE9011 /* BeginWith.swift */,
-				01FD8FF250692C040658177EFA90C0E0 /* BeGreaterThan.swift */,
-				1176D15EB10164D6B728ABDCF64DF44F /* BeGreaterThanOrEqualTo.swift */,
-				305683F6DC5ABB2EBE67B92E7DCBAAAB /* BeIdenticalTo.swift */,
-				BB37EB7FD8BBAE989114934A1AABD6C7 /* BeLessThan.swift */,
-				E5F0D51611FC77F830A66707083F3D5C /* BeLessThanOrEqual.swift */,
-				5972DEF6E1E52CBA5B71F172004C9AEA /* BeLogical.swift */,
-				6917F3CBD77923D8B13BCA172F479ED3 /* BeNil.swift */,
-				AFFE37A421B0965F0B0AEA5CFCC4888D /* BeVoid.swift */,
-				EEB27A274F6AB06ECC6865F72275203E /* Contain.swift */,
-				BFAB0B2662AEA74473DF3AD30B70C3CF /* ContainElementSatisfying.swift */,
-				3531CE5F730F1DEC4FDBB944E7A8B12E /* CurrentTestCaseTracker.h */,
-				63105B920EC55A2CC7444F7E0FAE8401 /* CwlBadInstructionException.swift */,
-				911BAA281ED929043C3DE08BDF136325 /* CwlCatchBadInstruction.swift */,
-				162F9491190264048BD2A6E7CD8D9A07 /* CwlCatchException.h */,
-				6A95C68633B48D78F51EB68727ED083F /* CwlCatchException.m */,
-				E9886C16D199E02B88589CED67D85A51 /* CwlCatchException.swift */,
-				8D694368D187804B512BA2E735768105 /* CwlDarwinDefinitions.swift */,
-				329D9CBE260B63EEF23DCEE07DFD1FCF /* CwlMachBadInstructionHandler.h */,
-				9FA7DA19DC0A8E43ED839051EB1B5C66 /* CwlMachBadInstructionHandler.m */,
-				B32BBBDDC59BABFB2B02807EAA9ED7E2 /* CwlPreconditionTesting.h */,
-				6F610D358CCBE4031DC469CFEBA0EC88 /* DSL.h */,
-				EA23EE0A80D318077C28121C5AD51D0D /* DSL.m */,
-				76A7D15DFB7100207E56A080910768F3 /* DSL.swift */,
-				62F3724885AEE3A9FD220E7F2DE0CC84 /* DSL+Wait.swift */,
-				646D0D06E5892DD252C59D60921AE0EE /* EndWith.swift */,
-				EDE8698DB0F11FC587C0881A15B87B25 /* Equal.swift */,
-				451E08D10D9859266EEFBF6749F5AA48 /* Errors.swift */,
-				708FA9A68C102B8FD7CC33D8003F2DB1 /* Expectation.swift */,
-				1335B873C56217DFC32AE983C03A7E63 /* ExpectationMessage.swift */,
-				B1300A88E757F3EDCAC601D580051806 /* Expression.swift */,
-				78C764AC540C4E0FE3477F5F61F53C36 /* FailureMessage.swift */,
-				76CA3B9C2A51D7AADB8F4C6DCF48EDA4 /* Functional.swift */,
-				FA927ABEA5A603E8961BF9D9EE2F03F5 /* HaveCount.swift */,
-				A2372AF16AA32C9907B0C68D9D693950 /* mach_excServer.c */,
-				2FC8E310A0A5BB8BB56CBD3D44C4D7FD /* mach_excServer.h */,
-				37129D278280818CD6E875D41C32A8F3 /* Match.swift */,
-				716B8AB51715BE5FB084529BE052EBB1 /* MatcherFunc.swift */,
-				119CEA0DA2B14DC2FAB627D9F42338F0 /* MatcherProtocols.swift */,
-				7AE93981372F1B5A9AA00030711E5113 /* MatchError.swift */,
-				40BD6C92C04852276647CF58AD53276A /* Nimble.h */,
-				A1BDD669767495985B6B920B8B75808D /* NimbleEnvironment.swift */,
-				11021259140D59C15B4E5E8A32774767 /* NimbleXCTestHandler.swift */,
-				3F6A13633C66B8A587030C9A32C0E7BA /* NMBExceptionCapture.h */,
-				22530E9D334DADCF7884E45EA87E629E /* NMBExceptionCapture.m */,
-				EF864E31CDE2263A0321BDEE8E679E22 /* NMBExpectation.swift */,
-				13AF186DBC7A1387C1B58C1C9300B648 /* NMBObjCMatcher.swift */,
-				E43274BDDF946146643879824D00EC31 /* NMBStringify.h */,
-				D20712BF889E8F3E37D4075A45B3047E /* NMBStringify.m */,
-				722B65BCF6B5C842506A8955E6161CD9 /* PostNotification.swift */,
-				3240723E01763156474E22F05498557E /* Predicate.swift */,
-				10FEF86C1F99EECA85B6BD1DBBEB0C4B /* RaisesException.swift */,
-				8E12EC59B1967A097C51218AEE9AAAF8 /* SatisfyAnyOf.swift */,
-				04D3C0AA5C1097304FF3968C197044E8 /* SourceLocation.swift */,
-				44486D4DB989823442DC4F41407A9336 /* Stringers.swift */,
-				25B26A98F04E23CACE8BF6A277E65DA5 /* ThrowAssertion.swift */,
-				E286B9A3CA7FCE64AA267CBEF4682D51 /* ThrowError.swift */,
-				3559DFB37ED916E7C52954A6BC6C1736 /* ToSucceed.swift */,
-				7632C27C5695470D79E1F7BEA55107F1 /* XCTestObservationCenter+Register.m */,
-				524DC68AB4217443949FF28C4829B38F /* Support Files */,
-			);
-			path = Nimble;
-			sourceTree = "<group>";
-		};
-		524DC68AB4217443949FF28C4829B38F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				02B06863E3E06649FA6976C9DAC22498 /* Info.plist */,
-				7D771B7102858BAB21B74EB6D6697B0D /* Nimble.modulemap */,
-				673C860967593DB40D143CB4752456AE /* Nimble.xcconfig */,
-				8DA795C106002DE6A4A1DF154C99443D /* Nimble-dummy.m */,
-				986DEBA5002418F9A514BBBD23C4C82D /* Nimble-prefix.pch */,
-				DCF34BDEAD8E1E90943E6DD1BA7DDC6E /* Nimble-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Nimble";
+			name = Assets;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {

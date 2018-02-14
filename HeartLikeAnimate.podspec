@@ -32,9 +32,9 @@ ImageView like click animate holdpress and click
 
   s.source_files = 'HeartLikeAnimate/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'HeartLikeAnimate' => ['HeartLikeAnimate/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'HeartLikeAnimate' => ['HeartLikeAnimate/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
