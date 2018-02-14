@@ -1,15 +1,16 @@
 //
-//  LikeSticker.swift
-//  LikeAnimate
+//  HeartAnimate.swift
+//  FBSnapshotTestCase
 //
-//  Created by Soemsak on 2/12/2561 BE.
-//  Copyright © 2561 Soemsak. All rights reserved.
+//  Created by Soemsak on 2/14/2561 BE.
 //
 
 import Foundation
 import UIKit
 
-public class LikeSticker {
+public class HeartAnimate {
+    
+    public init() {}
     
     var durationSec = 50
     var duration = 0
@@ -18,7 +19,7 @@ public class LikeSticker {
     
     var timer: Timer?
     
-    func animateInit(imageView:UIImageView) -> UIImageView{
+    public func animateInit(imageView:UIImageView) -> UIImageView{
         imageView.contentMode = .scaleAspectFit
         var imagesListArray = [UIImage]()
         for imageName in 0..<imageCount {
@@ -36,7 +37,7 @@ public class LikeSticker {
         return imageView
     }
     
-    func animateStart(likeValue:Int , imageView:UIImageView) -> UIImageView{
+    public func animateHoldStart(likeValue:Int , imageView:UIImageView) -> UIImageView{
         let imageCurrentShow = (likeValue * imageCount) / 100
         duration = durationSec * (imageCount - imageCurrentShow)
         duration = duration / 1000
@@ -61,7 +62,7 @@ public class LikeSticker {
         return imageView
     }
     
-    func animateStop(currentLike: Int,imageView:UIImageView , timeClicked:Date , timeReleased:Date) -> UIImageView {
+    public func animateHoldStop(currentLike: Int,imageView:UIImageView , timeClicked:Date , timeReleased:Date) -> UIImageView {
         var like = 0
         imageView.stopAnimating()
         like = Int(timeReleased.timeIntervalSince(timeClicked) * 20)
@@ -75,5 +76,29 @@ public class LikeSticker {
         return imageView
     }
     
+    public func animateClickStart(likeValue:Int , imageView:UIImageView) -> UIImageView{
+        let likeCurrent = likeValue + 1
+        imageView.isHidden = false
+        imageView.contentMode = .scaleAspectFit
+        getStart = likeValue * (imageCount / 100)
+        var heartName = String()
+        if getStart < 10 {
+            heartName = "HeartStill0000" + "\(getStart)"
+        } else if getStart < 100 {
+            heartName = "HeartStill000" + "\(getStart)"
+        } else {
+            heartName = "HeartStill00" + "\(getStart)"
+        }
+        let heartImage:UIImage
+        heartImage = UIImage(named: heartName)!
+        imageView.image = heartImage
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.6){
+            imageView.image = nil
+        }
+        imageView.tag = likeCurrent
+        return imageView
+    }
+    
     
 }
+
