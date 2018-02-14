@@ -1,0 +1,6 @@
+framework module HeartLikeAnimate {
+  umbrella header "HeartLikeAnimate-umbrella.h"
+
+  export *
+  module * { export * }
+}

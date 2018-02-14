@@ -1,0 +1,22 @@
+{
+  "name": "HeartLikeAnimate",
+  "version": "0.1.0",
+  "summary": "A short description of HeartLikeAnimate.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/methawin/HeartLikeAnimate",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "methawin": "pai.pp@hotmail.co.th"
+  },
+  "source": {
+    "git": "https://github.com/methawin/HeartLikeAnimate.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HeartLikeAnimate/Classes/**/*"
+}
