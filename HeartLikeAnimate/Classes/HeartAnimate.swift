@@ -105,13 +105,13 @@ public class HeartAnimate {
         return imageView
     }
     
-    func playSound(player:AVAudioPlayer ,currentLike:Int) {
+    public func playSound(player:AVAudioPlayer ,currentLike:Int) {
         let timeMusic = Double(currentLike * 50)/1000 + 0.1
         player.currentTime = timeMusic
         player.play()
     }
     
-    func stopSound(player:AVAudioPlayer) {
+    public func stopSound(player:AVAudioPlayer) {
         player.stop()
     }
     
