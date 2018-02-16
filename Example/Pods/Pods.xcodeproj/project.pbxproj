@@ -301,7 +301,6 @@
 		646D0D06E5892DD252C59D60921AE0EE /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Sources/Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
 		6476C191CDBF6F0C5E3F7ACA3F629F8E /* Pods-HeartLikeAnimate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeartLikeAnimate_Tests-dummy.m"; sourceTree = "<group>"; };
 		64DA78FBFF26AFB1756A0F4E86513957 /* Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-prefix.pch"; sourceTree = "<group>"; };
-		669ABBF12036946800F42CD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66CBBFA5203430E100AE5FDA /* HeartAnimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAnimate.swift; sourceTree = "<group>"; };
 		671D6E2527D0693441F6D1269355FDA6 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		673C860967593DB40D143CB4752456AE /* Nimble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.xcconfig; sourceTree = "<group>"; };
@@ -545,8 +544,6 @@
 		3BE13C4B61BE9B6CECEBC10187A0B67D /* HeartLikeAnimate */ = {
 			isa = PBXGroup;
 			children = (
-				669ABBF12036946800F42CD3 /* Assets.xcassets */,
-				669ABBED20368AFC00F42CD3 /* Resources */,
 				DAA810F5184A6A3F57F6990223A78432 /* Classes */,
 			);
 			path = HeartLikeAnimate;
@@ -671,13 +668,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Nimble";
-			sourceTree = "<group>";
-		};
-		669ABBED20368AFC00F42CD3 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {

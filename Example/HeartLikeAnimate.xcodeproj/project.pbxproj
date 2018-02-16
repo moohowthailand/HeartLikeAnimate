@@ -14,7 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		66CBBFA120341F9200AE5FDA /* HeartLikeAnimate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CBBFA320341F9200AE5FDA /* HeartLikeAnimate.framework */; };
-		66CBBFA220341F9200AE5FDA /* Pods_HeartLikeAnimate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CBBFA420341F9200AE5FDA /* Pods_HeartLikeAnimate_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		66CBBFA220341F9200AE5FDA /* Pods_HeartLikeAnimate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CBBFA420341F9200AE5FDA /* Pods_HeartLikeAnimate_Tests.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		80B08D84EDF1E2AA837AE683 /* Pods_HeartLikeAnimate_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C6E77116A66481B94136DB /* Pods_HeartLikeAnimate_Example.framework */; };
 		8EAE7B8AE0104C749F541E33 /* Pods_HeartLikeAnimate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9D0B7967BEB064454237D5 /* Pods_HeartLikeAnimate_Tests.framework */; };
 /* End PBXBuildFile section */
