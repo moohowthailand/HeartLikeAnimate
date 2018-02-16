@@ -5,19 +5,18 @@
 //  Created by Soemsak on 2/14/2561 BE.
 //
 
-
 import Foundation
 import UIKit
-import AVFoundation
 
 public class HeartAnimate {
     
     public init() {}
     
-    var durationSec = 40
-    var duration = 0.0
-    var imageCount = 225
+    var durationSec = 50
+    var duration = 0
+    var imageCount = 180
     var getStart = Int()
+    
     var timer: Timer?
     
     public func animateInit(imageView:UIImageView) -> UIImageView{
@@ -39,14 +38,11 @@ public class HeartAnimate {
     }
     
     public func animateHoldStart(likeValue:Int , imageView:UIImageView) -> UIImageView{
-        let imageCurrentShow = Int((Double(likeValue) * 1.25) +  0.5)
-        duration = Double(durationSec * (imageCount - imageCurrentShow))
+        let imageCurrentShow = (likeValue * imageCount) / 100
+        duration = durationSec * (imageCount - imageCurrentShow)
         duration = duration / 1000
         imageView.isHidden = false
         imageView.contentMode = .scaleAspectFit
-        
-        print("IMAGE SHOW",imageCurrentShow)
-        print("DURATION",duration)
         var imagesListArray = [UIImage]()
         for imageName in likeValue..<imageCount {
             let iconName:String
@@ -103,15 +99,6 @@ public class HeartAnimate {
         return imageView
     }
     
-    func playSound(player:AVAudioPlayer ,currentLike:Int) {
-        let timeMusic = Double(currentLike * 50)/1000 + 0.1
-        player.currentTime = timeMusic
-        player.play()
-    }
-    
-    func stopSound(player:AVAudioPlayer) {
-        player.stop()
-    }
     
 }
 
