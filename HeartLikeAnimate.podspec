@@ -31,7 +31,7 @@ ImageView like click animate holdpress and click
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'HeartLikeAnimate/Classes/**/*'
-  s.ios.resource_bundle = { 'HeartLikeAnimate' => '**/*.xcassets' }
+  s.resource_bundle = { 'HeartLikeAnimate' => '**/*.xcassets' }
   
   # s.resource_bundles = {
   #  'HeartLikeAnimate' => ['HeartLikeAnimate/Assets/*.png']
