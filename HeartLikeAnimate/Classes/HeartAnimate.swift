@@ -7,9 +7,6 @@
 
 import Foundation
 import UIKit
-
-import Foundation
-import UIKit
 import AVFoundation
 
 public class HeartAnimate {
@@ -18,46 +15,50 @@ public class HeartAnimate {
     
     var durationSec = 40
     var duration = 0.0
-    var imageCount = 225
+    var imageCount = 180
     var getStart = Int()
     var timer: Timer?
     
     public func animateInit(imageView:UIImageView) -> UIImageView{
+        imageView.alpha = 0.0
+        duration = 1
+        imageView.isHidden = false
         imageView.contentMode = .scaleAspectFit
         var imagesListArray = [UIImage]()
         for imageName in 0..<imageCount {
             let iconName:String
             if imageName < 10 {
-                iconName = "Heart0000" + "\(imageName)"
+                iconName = "heartpumping0000" + "\(imageName)"
             } else if imageName < 100 {
-                iconName = "Heart000" + "\(imageName)"
+                iconName = "heartpumping000" + "\(imageName)"
             } else {
-                iconName = "Heart00" + "\(imageName)"
+                iconName = "heartpumping000" + "\(imageName)"
             }
             imagesListArray.append(UIImage(named: "\(iconName)")!)
         }
         imageView.animationImages = imagesListArray
+        imageView.animationDuration = TimeInterval(duration)
+        imageView.animationRepeatCount = 1
+        imageView.startAnimating()
         return imageView
     }
     
     public func animateHoldStart(likeValue:Int , imageView:UIImageView) -> UIImageView{
+        imageView.alpha = 1.0
         let imageCurrentShow = Int((Double(likeValue) * 1.25) +  0.5)
         duration = Double(durationSec * (imageCount - imageCurrentShow))
         duration = duration / 1000
         imageView.isHidden = false
         imageView.contentMode = .scaleAspectFit
-        
-        print("IMAGE SHOW",imageCurrentShow)
-        print("DURATION",duration)
         var imagesListArray = [UIImage]()
         for imageName in likeValue..<imageCount {
             let iconName:String
             if imageName < 10 {
-                iconName = "Heart0000" + "\(imageName)"
+                iconName = "heartpumping0000" + "\(imageName)"
             } else if imageName < 100 {
-                iconName = "Heart000" + "\(imageName)"
+                iconName = "heartpumping000" + "\(imageName)"
             } else {
-                iconName = "Heart00" + "\(imageName)"
+                iconName = "heartpumping000" + "\(imageName)"
             }
             imagesListArray.append(UIImage(named: "\(iconName)")!)
         }
@@ -79,17 +80,19 @@ public class HeartAnimate {
             like = 100
         }
         imageView.tag = like
+        imageView.alpha = 0
         return imageView
     }
     
     public func animateClickStart(likeValue:Int , imageView:UIImageView) -> UIImageView{
         let likeCurrent = likeValue + 1
         imageView.isHidden = false
+        imageView.alpha = 1
         imageView.contentMode = .scaleAspectFit
         getStart = likeValue * (imageCount / 100)
         var heartName = String()
         if getStart < 10 {
-            heartName = "HeartStill0000" + "\(getStart)"
+            heartName = "heartstill0000" + "\(getStart)"
         } else if getStart < 100 {
             heartName = "HeartStill000" + "\(getStart)"
         } else {
@@ -98,9 +101,13 @@ public class HeartAnimate {
         let heartImage:UIImage
         heartImage = UIImage(named: heartName)!
         imageView.image = heartImage
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.6){
-            imageView.image = nil
+        
+        DispatchQueue.main.asyncAfter(deadline: .now()){
+            UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseOut, animations: {
+                imageView.alpha = 0.0
+            }, completion: nil)
         }
+        
         imageView.tag = likeCurrent
         return imageView
     }
@@ -116,4 +123,3 @@ public class HeartAnimate {
     }
     
 }
-

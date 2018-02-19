@@ -13,6 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		6619019C203AD55F004DE612 /* heartsound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6619019B203AD55F004DE612 /* heartsound.mp3 */; };
 		66CBBFA120341F9200AE5FDA /* HeartLikeAnimate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CBBFA320341F9200AE5FDA /* HeartLikeAnimate.framework */; };
 		66CBBFA220341F9200AE5FDA /* Pods_HeartLikeAnimate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CBBFA420341F9200AE5FDA /* Pods_HeartLikeAnimate_Tests.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		80B08D84EDF1E2AA837AE683 /* Pods_HeartLikeAnimate_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C6E77116A66481B94136DB /* Pods_HeartLikeAnimate_Example.framework */; };
@@ -44,6 +45,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		62AD1E97289A6388033E06F8 /* Pods-HeartLikeAnimate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartLikeAnimate_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeartLikeAnimate_Example/Pods-HeartLikeAnimate_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6619019B203AD55F004DE612 /* heartsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = heartsound.mp3; sourceTree = "<group>"; };
 		66CBBFA320341F9200AE5FDA /* HeartLikeAnimate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HeartLikeAnimate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CBBFA420341F9200AE5FDA /* Pods_HeartLikeAnimate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_HeartLikeAnimate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		953107DBD84C100E7951CF7A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		607FACD21AFB9204008FA782 /* Example for HeartLikeAnimate */ = {
 			isa = PBXGroup;
 			children = (
+				6619019B203AD55F004DE612 /* heartsound.mp3 */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				6619019C203AD55F004DE612 /* heartsound.mp3 in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
