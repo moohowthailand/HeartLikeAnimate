@@ -32,7 +32,7 @@ public class HeartAnimate {
             } else if imageName < 100 {
                 iconName = "heartpumping000" + "\(imageName)"
             } else {
-                iconName = "heartpumping000" + "\(imageName)"
+                iconName = "heartpumping00" + "\(imageName)"
             }
             imagesListArray.append(UIImage(named: "\(iconName)")!)
         }
@@ -58,7 +58,7 @@ public class HeartAnimate {
             } else if imageName < 100 {
                 iconName = "heartpumping000" + "\(imageName)"
             } else {
-                iconName = "heartpumping000" + "\(imageName)"
+                iconName = "heartpumping00" + "\(imageName)"
             }
             imagesListArray.append(UIImage(named: "\(iconName)")!)
         }
@@ -71,7 +71,6 @@ public class HeartAnimate {
     
     public func animateHoldStop(currentLike: Int,imageView:UIImageView , timeClicked:Date , timeReleased:Date) -> UIImageView {
         var like = 0
-        imageView.stopAnimating()
         like = Int(timeReleased.timeIntervalSince(timeClicked) * 20)
         if currentLike > like {
             like = currentLike
@@ -80,7 +79,14 @@ public class HeartAnimate {
             like = 100
         }
         imageView.tag = like
-        imageView.alpha = 0
+        DispatchQueue.main.asyncAfter(deadline: .now()){
+            UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseOut, animations: {
+                imageView.alpha = 0.0
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5){
+                    imageView.stopAnimating()
+                }
+            }, completion: nil)
+        }
         return imageView
     }
     
@@ -94,26 +100,28 @@ public class HeartAnimate {
         if getStart < 10 {
             heartName = "heartstill0000" + "\(getStart)"
         } else if getStart < 100 {
-            heartName = "HeartStill000" + "\(getStart)"
+            heartName = "heartstill000" + "\(getStart)"
         } else {
-            heartName = "HeartStill00" + "\(getStart)"
+            heartName = "heartstill00" + "\(getStart)"
         }
         let heartImage:UIImage
         heartImage = UIImage(named: heartName)!
         imageView.image = heartImage
         
         DispatchQueue.main.asyncAfter(deadline: .now()){
-            UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseOut, animations: {
+            UIView.animate(withDuration: 1, delay: 0, options: .curveEaseOut, animations: {
                 imageView.alpha = 0.0
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1){
+                    imageView.image = nil
+                }
             }, completion: nil)
         }
-        
         imageView.tag = likeCurrent
         return imageView
     }
     
     public func playSound(player:AVAudioPlayer ,currentLike:Int) {
-        let timeMusic = Double(currentLike * 50)/1000 + 0.1
+        let timeMusic = Double(currentLike * 50)/1000 - 0.3
         player.currentTime = timeMusic
         player.play()
     }
@@ -123,3 +131,4 @@ public class HeartAnimate {
     }
     
 }
+
