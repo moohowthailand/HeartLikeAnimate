@@ -25,6 +25,7 @@
 		29A50416AE8AEBEDD36399986598676B /* NBSMockedApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = B87CBE26A3C7F4052BFF8E113461E21E /* NBSMockedApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29A65FF7D1752DFFF87F5DC8F55CE859 /* ToSucceed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3559DFB37ED916E7C52954A6BC6C1736 /* ToSucceed.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		29AB02BEEF8FE29A9CF5CCFDB6DB17FF /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970EA0CBED9435FED98FE9B15A0EC31A /* ErrorUtility.swift */; };
+		2A51550D819742EA81D0D5DDC3FC12C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FBC47DA706DBF982E54AA5ACC39EC9 /* Foundation.framework */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD41EB748BF83453B0E36E7ACB021BF /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31C39ED8CB1C9317F1F2840FC919662D /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722B65BCF6B5C842506A8955E6161CD9 /* PostNotification.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		3233AB9E729F1EB0D8C4DBC1344ED949 /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8052367487C857440067EC33D18F05 /* QuickSpec.m */; };
@@ -55,12 +56,11 @@
 		5F9AFDECC14365CD10F3D83D50020E32 /* CwlMachBadInstructionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7DA19DC0A8E43ED839051EB1B5C66 /* CwlMachBadInstructionHandler.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		6025D718013046009468FE5A594C6C92 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B667DFD8E75D7AB4C30355EA4EFB0 /* Filter.swift */; };
 		6236BE5FA5B5B8A0B39104A94F3CD782 /* HaveValidSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3612030462D107BF373B18930C54AA8 /* HaveValidSnapshot.swift */; };
-		62683A416C1EA8234DE5EB28C4093C5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FBC47DA706DBF982E54AA5ACC39EC9 /* Foundation.framework */; };
 		62D26CE7BA3AEDB4E5E87218FDCBBA90 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CA3B9C2A51D7AADB8F4C6DCF48EDA4 /* Functional.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		64124F28740188C8BCE2B0D603766690 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FBC47DA706DBF982E54AA5ACC39EC9 /* Foundation.framework */; };
 		6593C547A71CCEFC480CD578080A327F /* mach_excServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC8E310A0A5BB8BB56CBD3D44C4D7FD /* mach_excServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65985C142EE8A74E6E56D5E30A39C79C /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708FA9A68C102B8FD7CC33D8003F2DB1 /* Expectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		66CBBFA6203430E100AE5FDA /* HeartAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBBFA5203430E100AE5FDA /* HeartAnimate.swift */; };
+		663DF16251DCA462BCC33575B06E4CFD /* HeartLikeAnimate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3E32C05EB00E52FD353A9A0D5FAE2300 /* HeartLikeAnimate.bundle */; };
 		68FD03C72D719117929696B62038B3D7 /* NMBExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF864E31CDE2263A0321BDEE8E679E22 /* NMBExpectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		69B80157634D6FAF248D37F397732357 /* CwlPreconditionTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = B32BBBDDC59BABFB2B02807EAA9ED7E2 /* CwlPreconditionTesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 918657EA4E3C6E897CB251D29FC692A0 /* UIImage+Compare.m */; };
@@ -78,7 +78,6 @@
 		7E0C9AE6468A5DF91F0F4C7A387D725C /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE425BCFF433709EF78844B6E3F6B53 /* BeAKindOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06DD029A3EDBE8A1D68E460BB1C997C1 /* XCTest.framework */; };
 		7FC992F4BD0376ACB4F97F9180B0F0B5 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC05FFCDBC43073BECB34E4AFEF85F02 /* FBSnapshotTestCase.framework */; };
-		80A7877F30CE00CE15BC6738898A0508 /* HeartLikeAnimate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CE5E1037B0A323FB2303D736F3D2EA /* HeartLikeAnimate-dummy.m */; };
 		80F2B4352B41E0FF487A086641D6E49A /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C369CE793024AD22D67676510BAF74BB /* World+DSL.swift */; };
 		8170866E2ACE0ACFBC6D90081354EC65 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44486D4DB989823442DC4F41407A9336 /* Stringers.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF76EE06934D8A8AC0A7205A589C3D6 /* UIKit.framework */; };
@@ -101,6 +100,7 @@
 		A272932A4DF9AC2D3B0A21AC70606F6D /* CwlBadInstructionException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63105B920EC55A2CC7444F7E0FAE8401 /* CwlBadInstructionException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		A2ACDD3235110F6981004483CE60476F /* CurrentTestCaseTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1860DD854B4063F37DBC53610D94A /* CurrentTestCaseTracker.swift */; };
 		A2BB3A874959DCD751332ADD55C26098 /* Pods-HeartLikeAnimate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E36211FD42D70A64A7463AE0EE66F7EC /* Pods-HeartLikeAnimate_Example-dummy.m */; };
+		A2F4405753B95805514C28E0A6FA1299 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FE7CFC409F42016764D4956EC46139 /* Images.xcassets */; };
 		A48417060D63D95C9C207E493748408F /* World.h in Headers */ = {isa = PBXBuildFile; fileRef = 39007EAC9C06A13F1FC9101C4843B8ED /* World.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795A90F46534585D6C119CDB2FE89316 /* FBSnapshotTestController.m */; };
 		A61ADD214AA182EEB2AC95EA3F3D658F /* XCTestObservationCenter+Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 7632C27C5695470D79E1F7BEA55107F1 /* XCTestObservationCenter+Register.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -120,9 +120,11 @@
 		BC7B9761322C74FA27969BD55833BA47 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451E08D10D9859266EEFBF6749F5AA48 /* Errors.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 10EFC5CA9570D0B49DEBF130AE38E738 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C67BFE2590E6B51BEB2BD4428FEA7E /* FBSnapshotTestCase.m */; };
+		BF0E21FB90F892E1889DEF66A9BDADAF /* HeartLikeAnimate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2F9FDCBC69FCBD92F6C110F472A859 /* HeartLikeAnimate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF3B7218901760A6226C7F6346BEF454 /* BeCloseTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7097BFA4126387C0C17F186FDFCE8946 /* BeCloseTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 689EEE4B5D2EE989525D994B3D81D715 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C06FA100C1BBEE34B863BCB8A65359C1 /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716B8AB51715BE5FB084529BE052EBB1 /* MatcherFunc.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		C0A7448E86E0FE6CA4EFB22F1993941E /* HeartLikeAnimate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFDC07FD34A075F50182F4FFDA49B17 /* HeartLikeAnimate-dummy.m */; };
 		C1D862177DC2999FAC710AC25F253BD0 /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B22EC6FE4AA48E5CAD5B01A5D16C11 /* BeAnInstanceOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		C1F47ACB6AD2E83B1C450EF461551D81 /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41C6D06731AEA313DD5A5EC8B9B56AF /* Callsite.swift */; };
 		C2467221FCD579800B9CD8FBBDB10B4D /* CwlCatchBadInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911BAA281ED929043C3DE08BDF136325 /* CwlCatchBadInstruction.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -136,6 +138,7 @@
 		CCDAF11E7AF29E720C587B038145F622 /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B625B502FA7FC9EDB2A28355AE9011 /* BeginWith.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		CD7E5300FABB8AC2983E15BFF4AC2123 /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73732D2BDBC248B39BBFEBDAD9697F1A /* SuiteHooks.swift */; };
 		CD910AE0A601A22AD69BB4B860A6C485 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABBC948D55BAFACF392F30C8D27B6F3 /* DSL.swift */; };
+		CEFD8FD500CBE0DDA08AADA19EAF9F22 /* HeartAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FD6A388C6D89989FB62D1FFDDD09D0 /* HeartAnimate.swift */; };
 		CF55697859D633C852C3586384647EB6 /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11021259140D59C15B4E5E8A32774767 /* NimbleXCTestHandler.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		D3C29C77997EE7CB5DE956C0C3EAE10E /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAF7997990F609B80722636041A758 /* ExampleGroup.swift */; };
 		D76FE9C9FA97785D48A5B28A0695B82B /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD77CD1FD4FCF047E861849B8A77C74 /* Example.swift */; };
@@ -161,7 +164,6 @@
 		F9649DD59BAEE88C6864EEFE73ECA88C /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F954044A82CFADBC52547F095D9282 /* AdapterProtocols.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		FB433A84B0A557CD5E5948A8B6705024 /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F610D358CCBE4031DC469CFEBA0EC88 /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBD31EA59D69533FE04CA03E275770FB /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0899F1B4CA18747F7A62B6CA14F9ED /* Configuration.swift */; };
-		FD7304F01F6F00B13917DBAF7E22F2B1 /* HeartLikeAnimate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 181F3D22934A997B8C34E88D9EFE50FC /* HeartLikeAnimate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF29D4B0353B191729E5882B6D20EE14 /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C71DF19B75D27352FBD0AE9FF127BEA /* ExampleMetadata.swift */; };
 /* End PBXBuildFile section */
 
@@ -170,7 +172,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D77681C650D3B7E4D453779A4480C05A;
+			remoteGlobalIDString = 373ACF06B54BA58A496ACBB6B59352E6;
 			remoteInfo = HeartLikeAnimate;
 		};
 		4DA808897D77FF87C31834C6850CDAF2 /* PBXContainerItemProxy */ = {
@@ -215,25 +217,35 @@
 			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
 			remoteInfo = FBSnapshotTestCase;
 		};
+		D5790A5C4293C7AC3D4FDF80F1D6FD0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B49E2EE7E7E3DE19941564C562C1755;
+			remoteInfo = "HeartLikeAnimate-HeartLikeAnimate";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		004279776B0E51B3A464408B4873DB19 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		0065A6A705E52ECA1BABE05088671ECE /* HeartLikeAnimate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HeartLikeAnimate.framework; path = HeartLikeAnimate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00987184A8DEA2443C88F006A63FEA16 /* Nimble-Snapshots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-Snapshots-umbrella.h"; sourceTree = "<group>"; };
 		01AF98A52CDA31EFAE664768F2AAD9F9 /* Pods-HeartLikeAnimate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeartLikeAnimate_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		01FD8FF250692C040658177EFA90C0E0 /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Sources/Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
 		022B021D1697A1B527875D5C550412C0 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		02B06863E3E06649FA6976C9DAC22498 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04D3C0AA5C1097304FF3968C197044E8 /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Sources/Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
-		04D7A85E51DCF72F2945EF3910A9B8CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0531B8981F0FCF7E20761DB1709401B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05D8B238CAE1DF06EDE115C8B90736FA /* Pods-HeartLikeAnimate_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeartLikeAnimate_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		06DD029A3EDBE8A1D68E460BB1C997C1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0999D8E772AB02DD29403AF44FF3BFE5 /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/QuickObjectiveC/DSL/QCKDSL.m; sourceTree = "<group>"; };
 		09FA971ABA0274A0DE83906D6CB6762A /* Pods-HeartLikeAnimate_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeartLikeAnimate_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		09FFB8DE4A4FBBFAD4F83F78D3C76331 /* HaveValidDynamicTypeSnapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveValidDynamicTypeSnapshot.swift; path = DynamicType/HaveValidDynamicTypeSnapshot.swift; sourceTree = "<group>"; };
+		0A7DF98AD3B0AF57E67037C3E2B73C52 /* Pods_HeartLikeAnimate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HeartLikeAnimate_Example.framework; path = "Pods-HeartLikeAnimate_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD77CD1FD4FCF047E861849B8A77C74 /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Sources/Quick/Example.swift; sourceTree = "<group>"; };
-		0BD8209E3A17466A5E482E1A3C58C17E /* Pods-HeartLikeAnimate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HeartLikeAnimate_Example.modulemap"; sourceTree = "<group>"; };
+		0AFDC07FD34A075F50182F4FFDA49B17 /* HeartLikeAnimate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HeartLikeAnimate-dummy.m"; sourceTree = "<group>"; };
+		0B2F9FDCBC69FCBD92F6C110F472A859 /* HeartLikeAnimate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeartLikeAnimate-umbrella.h"; sourceTree = "<group>"; };
+		0BD8209E3A17466A5E482E1A3C58C17E /* Pods-HeartLikeAnimate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HeartLikeAnimate_Example.modulemap"; sourceTree = "<group>"; };
 		0BDAF7997990F609B80722636041A758 /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Sources/Quick/ExampleGroup.swift; sourceTree = "<group>"; };
 		0C826323C6CDC4C15F1D1242AC2B5B48 /* DynamicSizeSnapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicSizeSnapshot.swift; path = DynamicSize/DynamicSizeSnapshot.swift; sourceTree = "<group>"; };
 		0F0C43403E98583917CF2D62C515398A /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
@@ -245,7 +257,6 @@
 		1335B873C56217DFC32AE983C03A7E63 /* ExpectationMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpectationMessage.swift; path = Sources/Nimble/ExpectationMessage.swift; sourceTree = "<group>"; };
 		13AF186DBC7A1387C1B58C1C9300B648 /* NMBObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBObjCMatcher.swift; path = Sources/Nimble/Adapters/NMBObjCMatcher.swift; sourceTree = "<group>"; };
 		162F9491190264048BD2A6E7CD8D9A07 /* CwlCatchException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlCatchException.h; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchException.h; sourceTree = "<group>"; };
-		181F3D22934A997B8C34E88D9EFE50FC /* HeartLikeAnimate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeartLikeAnimate-umbrella.h"; sourceTree = "<group>"; };
 		18AF1D5EA3078A777701EC421BECC328 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		18F4ED8F412CF0A46CC48E071C1A1CC5 /* Pods-HeartLikeAnimate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeartLikeAnimate_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1AD41EB748BF83453B0E36E7ACB021BF /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
@@ -265,16 +276,17 @@
 		3419B294CA6C43D40AA9176EAC20A068 /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Sources/Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
 		3531CE5F730F1DEC4FDBB944E7A8B12E /* CurrentTestCaseTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CurrentTestCaseTracker.h; path = Sources/NimbleObjectiveC/CurrentTestCaseTracker.h; sourceTree = "<group>"; };
 		3559DFB37ED916E7C52954A6BC6C1736 /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
+		356C163D1B4D7D5E0A1550148D408FA1 /* HeartLikeAnimate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HeartLikeAnimate.xcconfig; sourceTree = "<group>"; };
 		37129D278280818CD6E875D41C32A8F3 /* Match.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Match.swift; path = Sources/Nimble/Matchers/Match.swift; sourceTree = "<group>"; };
 		37CDB70A47093EFA025A84CC82BDE3B1 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		38CB8C91B44DFA94D543228EB3934E5B /* PrettySyntax.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrettySyntax.swift; sourceTree = "<group>"; };
 		39007EAC9C06A13F1FC9101C4843B8ED /* World.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = World.h; path = Sources/QuickObjectiveC/World.h; sourceTree = "<group>"; };
-		3A50EE7EE68E997A564503156FC52478 /* HeartLikeAnimate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HeartLikeAnimate.xcconfig; sourceTree = "<group>"; };
+		3E32C05EB00E52FD353A9A0D5FAE2300 /* HeartLikeAnimate.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HeartLikeAnimate.bundle; path = HeartLikeAnimate.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E785956F45450E44F245DD4D55FD208 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F6A13633C66B8A587030C9A32C0E7BA /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Sources/NimbleObjectiveC/NMBExceptionCapture.h; sourceTree = "<group>"; };
 		40BD6C92C04852276647CF58AD53276A /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Sources/Nimble/Nimble.h; sourceTree = "<group>"; };
 		42B22EC6FE4AA48E5CAD5B01A5D16C11 /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAnInstanceOf.swift; path = Sources/Nimble/Matchers/BeAnInstanceOf.swift; sourceTree = "<group>"; };
 		437A82F05782313C2C78976D51554725 /* Pods-HeartLikeAnimate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeartLikeAnimate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		43ECC83E651DBA8812C8209D68A12C26 /* Nimble_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44486D4DB989823442DC4F41407A9336 /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Sources/Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
 		445B5D0FA45396EF0BB8E92D62546F80 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		451E08D10D9859266EEFBF6749F5AA48 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/Nimble/Utils/Errors.swift; sourceTree = "<group>"; };
@@ -286,30 +298,27 @@
 		4E45E9CB31D6FDBF6A75772CD26EAF18 /* Pods-HeartLikeAnimate_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeartLikeAnimate_Example-resources.sh"; sourceTree = "<group>"; };
 		50FBC47DA706DBF982E54AA5ACC39EC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		51811755DAC0B2B25F4BEBCB5A426100 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53E8161B95038869EC9FFC6C21F54092 /* ResourceBundle-HeartLikeAnimate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HeartLikeAnimate-Info.plist"; sourceTree = "<group>"; };
 		55F954044A82CFADBC52547F095D9282 /* AdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdapterProtocols.swift; path = Sources/Nimble/Adapters/AdapterProtocols.swift; sourceTree = "<group>"; };
 		57C61E223803DB9246247DB99B53B72C /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		58F9222D1C59F8C23E5CEB8E0B076FF8 /* Pods-HeartLikeAnimate_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HeartLikeAnimate_Example-umbrella.h"; sourceTree = "<group>"; };
 		5972DEF6E1E52CBA5B71F172004C9AEA /* BeLogical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLogical.swift; path = Sources/Nimble/Matchers/BeLogical.swift; sourceTree = "<group>"; };
 		5A67973E8AA7BF0C99CA30B3BDD0FE1F /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
-		5BCE36D15B5DD7723499F28B22EEDF5F /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		5BCE36D15B5DD7723499F28B22EEDF5F /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		5BD587B9796F20C789291E05B7F783E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61CE5E1037B0A323FB2303D736F3D2EA /* HeartLikeAnimate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HeartLikeAnimate-dummy.m"; sourceTree = "<group>"; };
 		61E7D7F94796C8273534EBD4E460E922 /* XCTestObservationCenter+CurrentTestCaseTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCTestObservationCenter+CurrentTestCaseTracker.h"; sourceTree = "<group>"; };
 		62F3724885AEE3A9FD220E7F2DE0CC84 /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Sources/Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
 		63105B920EC55A2CC7444F7E0FAE8401 /* CwlBadInstructionException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlBadInstructionException.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlBadInstructionException.swift; sourceTree = "<group>"; };
-		63E6C720C8FBB9F07F977FBF5FB08AB2 /* Nimble-Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Nimble-Snapshots.modulemap"; sourceTree = "<group>"; };
+		63E6C720C8FBB9F07F977FBF5FB08AB2 /* Nimble-Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Nimble-Snapshots.modulemap"; sourceTree = "<group>"; };
 		646D0D06E5892DD252C59D60921AE0EE /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Sources/Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
 		6476C191CDBF6F0C5E3F7ACA3F629F8E /* Pods-HeartLikeAnimate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeartLikeAnimate_Tests-dummy.m"; sourceTree = "<group>"; };
 		64DA78FBFF26AFB1756A0F4E86513957 /* Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-prefix.pch"; sourceTree = "<group>"; };
-		66CBBFA5203430E100AE5FDA /* HeartAnimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAnimate.swift; sourceTree = "<group>"; };
-		671D6E2527D0693441F6D1269355FDA6 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		673C860967593DB40D143CB4752456AE /* Nimble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.xcconfig; sourceTree = "<group>"; };
 		689EEE4B5D2EE989525D994B3D81D715 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		68BEAADD3D502C3823DD093E5EE7E265 /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Sources/Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
 		6917F3CBD77923D8B13BCA172F479ED3 /* BeNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeNil.swift; path = Sources/Nimble/Matchers/BeNil.swift; sourceTree = "<group>"; };
 		6A95C68633B48D78F51EB68727ED083F /* CwlCatchException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlCatchException.m; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/CwlCatchException.m; sourceTree = "<group>"; };
 		6AC8B203A9973AF61F939CF61D619C41 /* QuickSelectedTestSuiteBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickSelectedTestSuiteBuilder.swift; path = Sources/Quick/QuickSelectedTestSuiteBuilder.swift; sourceTree = "<group>"; };
-		6ACF7D75F71A54557CA78F67F11AD105 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C71DF19B75D27352FBD0AE9FF127BEA /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Sources/Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
 		6F610D358CCBE4031DC469CFEBA0EC88 /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Sources/NimbleObjectiveC/DSL.h; sourceTree = "<group>"; };
 		708FA9A68C102B8FD7CC33D8003F2DB1 /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Sources/Nimble/Expectation.swift; sourceTree = "<group>"; };
@@ -324,11 +333,13 @@
 		78C764AC540C4E0FE3477F5F61F53C36 /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Sources/Nimble/FailureMessage.swift; sourceTree = "<group>"; };
 		795A90F46534585D6C119CDB2FE89316 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		7AE93981372F1B5A9AA00030711E5113 /* MatchError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchError.swift; path = Sources/Nimble/Matchers/MatchError.swift; sourceTree = "<group>"; };
+		7BA838C27970BBFF82433FEE7A5E99C8 /* HeartLikeAnimate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeartLikeAnimate-prefix.pch"; sourceTree = "<group>"; };
 		7D1E103702ABBD58F315C182A4866454 /* NBSMockedApplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBSMockedApplication.m; path = DynamicType/NBSMockedApplication.m; sourceTree = "<group>"; };
-		7D771B7102858BAB21B74EB6D6697B0D /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Nimble.modulemap; sourceTree = "<group>"; };
+		7D771B7102858BAB21B74EB6D6697B0D /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Nimble.modulemap; sourceTree = "<group>"; };
+		7DD229ACE8E2AA5A743630CE0C040800 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quick.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		840FD64E1CCF77D2557E76A7102D5CA2 /* HooksPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HooksPhase.swift; path = Sources/Quick/Hooks/HooksPhase.swift; sourceTree = "<group>"; };
 		85A882EA46D22D7DCFC2F25136271D7F /* Pods-HeartLikeAnimate_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeartLikeAnimate_Tests-resources.sh"; sourceTree = "<group>"; };
-		884398A62D6D13CD74DE85CB39A3BD36 /* HeartLikeAnimate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeartLikeAnimate-prefix.pch"; sourceTree = "<group>"; };
+		8821B0180781F355311768051EDA6FD7 /* Nimble_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble_Snapshots.framework; path = "Nimble-Snapshots.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8958E6A104616DC4782A7B97FDA3B19B /* Behavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Behavior.swift; path = Sources/Quick/Behavior.swift; sourceTree = "<group>"; };
 		8AEEE59D038DD6ECD5D9D0768105B4C4 /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Sources/Nimble/Utils/Async.swift; sourceTree = "<group>"; };
 		8B070CB5CE378A543810AFB09D678302 /* Pods-HeartLikeAnimate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeartLikeAnimate_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -339,7 +350,8 @@
 		8E12EC59B1967A097C51218AEE9AAAF8 /* SatisfyAnyOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAnyOf.swift; path = Sources/Nimble/Matchers/SatisfyAnyOf.swift; sourceTree = "<group>"; };
 		911BAA281ED929043C3DE08BDF136325 /* CwlCatchBadInstruction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchBadInstruction.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlCatchBadInstruction.swift; sourceTree = "<group>"; };
 		918657EA4E3C6E897CB251D29FC692A0 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		92FD6A388C6D89989FB62D1FFDDD09D0 /* HeartAnimate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HeartAnimate.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		970EA0CBED9435FED98FE9B15A0EC31A /* ErrorUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorUtility.swift; path = Sources/Quick/ErrorUtility.swift; sourceTree = "<group>"; };
 		986DEBA5002418F9A514BBBD23C4C82D /* Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-prefix.pch"; sourceTree = "<group>"; };
 		9BED90996366D3D217591D2121A03038 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
@@ -347,12 +359,12 @@
 		9FA7DA19DC0A8E43ED839051EB1B5C66 /* CwlMachBadInstructionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlMachBadInstructionHandler.m; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/CwlMachBadInstructionHandler.m; sourceTree = "<group>"; };
 		A19225C3D73CFBCA4B12272C9F3058FF /* World+DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "World+DSL.h"; path = "Sources/QuickObjectiveC/DSL/World+DSL.h"; sourceTree = "<group>"; };
 		A1BDD669767495985B6B920B8B75808D /* NimbleEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleEnvironment.swift; path = Sources/Nimble/Adapters/NimbleEnvironment.swift; sourceTree = "<group>"; };
-		A2372AF16AA32C9907B0C68D9D693950 /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mach_excServer.c; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
+		A2372AF16AA32C9907B0C68D9D693950 /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mach_excServer.c; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
 		A49C0AF93B13ECB6199615AAD8721F58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FE7CFC409F42016764D4956EC46139 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A505EA37252ABA7F979E6544C8C857AA /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
 		A516AF61F83611FBB7DE1D8EAAB6A1C9 /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
-		A6B8548E34C1B210D6BF7A8173C094CB /* HeartLikeAnimate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HeartLikeAnimate.modulemap; sourceTree = "<group>"; };
-		AA3F8307665792160D3F1EBF95735CAD /* Pods-HeartLikeAnimate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HeartLikeAnimate_Tests.modulemap"; sourceTree = "<group>"; };
+		AA3F8307665792160D3F1EBF95735CAD /* Pods-HeartLikeAnimate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HeartLikeAnimate_Tests.modulemap"; sourceTree = "<group>"; };
 		AABBC948D55BAFACF392F30C8D27B6F3 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Quick/DSL/DSL.swift; sourceTree = "<group>"; };
 		ACEB2127A47162166BDABA88DB4578CD /* XCTestSuite+QuickTestSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestSuite+QuickTestSuiteBuilder.m"; path = "Sources/QuickObjectiveC/XCTestSuite+QuickTestSuiteBuilder.m"; sourceTree = "<group>"; };
 		AFA939DEB808A32217C0E2F03D825E38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -363,19 +375,20 @@
 		B32BBBDDC59BABFB2B02807EAA9ED7E2 /* CwlPreconditionTesting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlPreconditionTesting.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/Mach/CwlPreconditionTesting.h; sourceTree = "<group>"; };
 		B41C6D06731AEA313DD5A5EC8B9B56AF /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
 		B5C67BFE2590E6B51BEB2BD4428FEA7E /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		B71C9EBAA619302D4B1A50BF0BCBFCF7 /* HeartLikeAnimate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HeartLikeAnimate.modulemap; sourceTree = "<group>"; };
 		B87CBE26A3C7F4052BFF8E113461E21E /* NBSMockedApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBSMockedApplication.h; path = DynamicType/NBSMockedApplication.h; sourceTree = "<group>"; };
 		B9B625B502FA7FC9EDB2A28355AE9011 /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Sources/Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
 		BB37EB7FD8BBAE989114934A1AABD6C7 /* BeLessThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThan.swift; path = Sources/Nimble/Matchers/BeLessThan.swift; sourceTree = "<group>"; };
-		BF8D0F7718AE0B968CB4A5ADB0ECABA5 /* Pods_HeartLikeAnimate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeartLikeAnimate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC5506FC3645F3F8F5E93994938C362 /* Pods_HeartLikeAnimate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HeartLikeAnimate_Tests.framework; path = "Pods-HeartLikeAnimate_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAB0B2662AEA74473DF3AD30B70C3CF /* ContainElementSatisfying.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainElementSatisfying.swift; path = Sources/Nimble/Matchers/ContainElementSatisfying.swift; sourceTree = "<group>"; };
 		BFB91EE2B34BCD507A8EAF07F231C380 /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Sources/QuickObjectiveC/DSL/QCKDSL.h; sourceTree = "<group>"; };
+		C07FCA9DCCA035E1AA968599E5C79894 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21B8D3C4E2547445883AD8CD24D0ED7 /* PrettyDynamicTypeSyntax.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrettyDynamicTypeSyntax.swift; path = DynamicType/PrettyDynamicTypeSyntax.swift; sourceTree = "<group>"; };
 		C3612030462D107BF373B18930C54AA8 /* HaveValidSnapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HaveValidSnapshot.swift; sourceTree = "<group>"; };
 		C369CE793024AD22D67676510BAF74BB /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
 		C3D41F703F26B177ACAAD1FFB6C0AAE1 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		C3D71720172377C24D9D5A4C70896DFE /* Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Quick.modulemap; sourceTree = "<group>"; };
+		C3D71720172377C24D9D5A4C70896DFE /* Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Quick.modulemap; sourceTree = "<group>"; };
 		CAF3D1AECDF53E3723EF1CB7BEC461CC /* NSString+C99ExtendedIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSString+C99ExtendedIdentifier.swift"; path = "Sources/Quick/NSString+C99ExtendedIdentifier.swift"; sourceTree = "<group>"; };
-		CC86886AFA72CA2AABAB6EFF8954437F /* Pods_HeartLikeAnimate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeartLikeAnimate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE425BCFF433709EF78844B6E3F6B53 /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
 		D18C2A53134FEDDD80B6D431CA482157 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		D1CA968DCECD073DA1D17E3EA89ECA6A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
@@ -383,6 +396,7 @@
 		D23B667DFD8E75D7AB4C30355EA4EFB0 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Quick/Filter.swift; sourceTree = "<group>"; };
 		D2C313C37A5A308DFD4A73609F4865F3 /* World.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = World.swift; path = Sources/Quick/World.swift; sourceTree = "<group>"; };
 		D36504D346FFFB61DFF559CFD5507A73 /* Nimble-Snapshots-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-Snapshots-prefix.pch"; sourceTree = "<group>"; };
+		D5550B81DE2529F8143F4BC3146ECA3A /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6993558631F877FA082206FA003021C /* QuickTestSuite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestSuite.swift; path = Sources/Quick/QuickTestSuite.swift; sourceTree = "<group>"; };
 		DB3B9455664D13744657268D75172AD1 /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Sources/Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
 		DC05FFCDBC43073BECB34E4AFEF85F02 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -395,7 +409,6 @@
 		E286B9A3CA7FCE64AA267CBEF4682D51 /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
 		E36211FD42D70A64A7463AE0EE66F7EC /* Pods-HeartLikeAnimate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeartLikeAnimate_Example-dummy.m"; sourceTree = "<group>"; };
 		E43274BDDF946146643879824D00EC31 /* NMBStringify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBStringify.h; path = Sources/NimbleObjectiveC/NMBStringify.h; sourceTree = "<group>"; };
-		E578651A1A10183459ACC3E3F802B9A5 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F0D51611FC77F830A66707083F3D5C /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Sources/Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
 		E9886C16D199E02B88589CED67D85A51 /* CwlCatchException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchException.swift; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchException/CwlCatchException.swift; sourceTree = "<group>"; };
 		EA23EE0A80D318077C28121C5AD51D0D /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Sources/NimbleObjectiveC/DSL.m; sourceTree = "<group>"; };
@@ -403,7 +416,6 @@
 		EDE8698DB0F11FC587C0881A15B87B25 /* Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equal.swift; path = Sources/Nimble/Matchers/Equal.swift; sourceTree = "<group>"; };
 		EEB27A274F6AB06ECC6865F72275203E /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Sources/Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
 		EF864E31CDE2263A0321BDEE8E679E22 /* NMBExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBExpectation.swift; path = Sources/Nimble/Adapters/NMBExpectation.swift; sourceTree = "<group>"; };
-		F4DA84E923F6B9AA0C8F2CD3463D64F3 /* HeartLikeAnimate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HeartLikeAnimate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F603B296227BBABC70245D537E904B4F /* AsyncMatcherWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncMatcherWrapper.swift; path = Sources/Nimble/Matchers/AsyncMatcherWrapper.swift; sourceTree = "<group>"; };
 		F893250228CB5A19E805F4C333611455 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		FA0255671308ED250FF9F562B53733A7 /* Quick.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.xcconfig; sourceTree = "<group>"; };
@@ -431,6 +443,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		25651689826200986646AE8DC9DF48BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A51550D819742EA81D0D5DDC3FC12C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4A54B21ADD8A9AA74E129358F334DFA8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -440,6 +460,13 @@
 				91D400CC851F516E785B032662E4FDD8 /* Nimble.framework in Frameworks */,
 				99ED13BA15822FD5AEE570B9002C37A8 /* UIKit.framework in Frameworks */,
 				E7C675C1460BB65C9EECEA98F21CA89E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DCBF03BB235AB18D1AD5D58E53CCC5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,14 +487,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA45E464D13E0A13E7F4594A870C73B2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62683A416C1EA8234DE5EB28C4093C5F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F6916F22CF54EE5B3CA46BE76F7C33D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -479,14 +498,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C1F33CCDF563005F9FC5C0EC183B6B4 /* HeartLikeAnimate */ = {
+		090AEBF3987EA0B1BFF70B2226586D13 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3BE13C4B61BE9B6CECEBC10187A0B67D /* HeartLikeAnimate */,
-				17E378BD319A829AF8FAE541040EA191 /* Support Files */,
+				92FD6A388C6D89989FB62D1FFDDD09D0 /* HeartAnimate.swift */,
 			);
-			name = HeartLikeAnimate;
-			path = ../..;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		1623501078AD7652B04972ADFA6818B1 /* Frameworks */ = {
@@ -497,20 +515,6 @@
 				D1C102E20B1DDC3A6DCB4B28BEFE900C /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		17E378BD319A829AF8FAE541040EA191 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A6B8548E34C1B210D6BF7A8173C094CB /* HeartLikeAnimate.modulemap */,
-				3A50EE7EE68E997A564503156FC52478 /* HeartLikeAnimate.xcconfig */,
-				61CE5E1037B0A323FB2303D736F3D2EA /* HeartLikeAnimate-dummy.m */,
-				884398A62D6D13CD74DE85CB39A3BD36 /* HeartLikeAnimate-prefix.pch */,
-				181F3D22934A997B8C34E88D9EFE50FC /* HeartLikeAnimate-umbrella.h */,
-				04D7A85E51DCF72F2945EF3910A9B8CE /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HeartLikeAnimate";
 			sourceTree = "<group>";
 		};
 		2684F8A00C4ACF49103B50A6B9C969CE /* Pods-HeartLikeAnimate_Tests */ = {
@@ -531,6 +535,25 @@
 			path = "Target Support Files/Pods-HeartLikeAnimate_Tests";
 			sourceTree = "<group>";
 		};
+		268637924CD8D08408349CD4EF73597E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				688FD691A5E0B7B5C07C1F1AD3C9C8FD /* Example */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		276059EE0EBBF62F85F43F9C815972D3 /* HeartLikeAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				6D5C80061C08060E399A4D5BE28AE68D /* HeartLikeAnimate */,
+				268637924CD8D08408349CD4EF73597E /* Resources */,
+				8527DABD5C25F7EA22C91510B6559DA3 /* Support Files */,
+			);
+			name = HeartLikeAnimate;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		2B615113DBF4607AD6D43A82E6CECA41 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -538,15 +561,8 @@
 				FCA9F61EF70CBF95AFAFD113C019B8AE /* Support Files */,
 				E57B0B627473253F6AB1D52E7E2088D9 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		3BE13C4B61BE9B6CECEBC10187A0B67D /* HeartLikeAnimate */ = {
-			isa = PBXGroup;
-			children = (
-				DAA810F5184A6A3F57F6990223A78432 /* Classes */,
-			);
-			path = HeartLikeAnimate;
 			sourceTree = "<group>";
 		};
 		3DA95784254DD9EB0F834723EE8D3C8D /* Core */ = {
@@ -570,12 +586,28 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		473D96840A94C7145C2B7C07F94F5F5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C07FCA9DCCA035E1AA968599E5C79894 /* FBSnapshotTestCase.framework */,
+				3E32C05EB00E52FD353A9A0D5FAE2300 /* HeartLikeAnimate.bundle */,
+				0065A6A705E52ECA1BABE05088671ECE /* HeartLikeAnimate.framework */,
+				D5550B81DE2529F8143F4BC3146ECA3A /* Nimble.framework */,
+				8821B0180781F355311768051EDA6FD7 /* Nimble_Snapshots.framework */,
+				0A7DF98AD3B0AF57E67037C3E2B73C52 /* Pods_HeartLikeAnimate_Example.framework */,
+				BCC5506FC3645F3F8F5E93994938C362 /* Pods_HeartLikeAnimate_Tests.framework */,
+				7DD229ACE8E2AA5A743630CE0C040800 /* Quick.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		518AE2F3412A9E20E50A3D7DC7B4C956 /* Nimble-Snapshots */ = {
 			isa = PBXGroup;
 			children = (
 				EF140300C48CE12B6336E20905BAB042 /* Core */,
 				EF44781C67EF86FF7548B353025D1514 /* Support Files */,
 			);
+			name = "Nimble-Snapshots";
 			path = "Nimble-Snapshots";
 			sourceTree = "<group>";
 		};
@@ -653,6 +685,7 @@
 				7632C27C5695470D79E1F7BEA55107F1 /* XCTestObservationCenter+Register.m */,
 				524DC68AB4217443949FF28C4829B38F /* Support Files */,
 			);
+			name = Nimble;
 			path = Nimble;
 			sourceTree = "<group>";
 		};
@@ -670,14 +703,32 @@
 			path = "../Target Support Files/Nimble";
 			sourceTree = "<group>";
 		};
+		688FD691A5E0B7B5C07C1F1AD3C9C8FD /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				F4D15AE4F94E9F82E4B8F25210A2BD83 /* HeartLikeAnimate */,
+			);
+			name = Example;
+			path = Example;
+			sourceTree = "<group>";
+		};
+		6D5C80061C08060E399A4D5BE28AE68D /* HeartLikeAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				090AEBF3987EA0B1BFF70B2226586D13 /* Classes */,
+			);
+			name = HeartLikeAnimate;
+			path = HeartLikeAnimate;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				998742BD870FB32392936D69E0E3C3D6 /* Development Pods */,
+				EF2AFD616D7E938A831AF1F3862E72EA /* Development Pods */,
 				1623501078AD7652B04972ADFA6818B1 /* Frameworks */,
 				82FB7CFF656A6DEE32FE73ED691D76F4 /* Pods */,
-				FFC0710056796922C16AFABD5D81AC91 /* Products */,
+				473D96840A94C7145C2B7C07F94F5F5C /* Products */,
 				FFF9A198EB769BACBA86D01D8FAAD972 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -691,6 +742,21 @@
 				F26E1C8B8E6277339C03A5479B6ACFB8 /* Quick */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8527DABD5C25F7EA22C91510B6559DA3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B71C9EBAA619302D4B1A50BF0BCBFCF7 /* HeartLikeAnimate.modulemap */,
+				356C163D1B4D7D5E0A1550148D408FA1 /* HeartLikeAnimate.xcconfig */,
+				0AFDC07FD34A075F50182F4FFDA49B17 /* HeartLikeAnimate-dummy.m */,
+				7BA838C27970BBFF82433FEE7A5E99C8 /* HeartLikeAnimate-prefix.pch */,
+				0B2F9FDCBC69FCBD92F6C110F472A859 /* HeartLikeAnimate-umbrella.h */,
+				3E785956F45450E44F245DD4D55FD208 /* Info.plist */,
+				53E8161B95038869EC9FFC6C21F54092 /* ResourceBundle-HeartLikeAnimate-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HeartLikeAnimate";
 			sourceTree = "<group>";
 		};
 		9633585CE62EE47EC500E74FCE4320E3 /* Pods-HeartLikeAnimate_Example */ = {
@@ -711,14 +777,6 @@
 			path = "Target Support Files/Pods-HeartLikeAnimate_Example";
 			sourceTree = "<group>";
 		};
-		998742BD870FB32392936D69E0E3C3D6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0C1F33CCDF563005F9FC5C0EC183B6B4 /* HeartLikeAnimate */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		D1C102E20B1DDC3A6DCB4B28BEFE900C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -728,14 +786,6 @@
 				06DD029A3EDBE8A1D68E460BB1C997C1 /* XCTest.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		DAA810F5184A6A3F57F6990223A78432 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				66CBBFA5203430E100AE5FDA /* HeartAnimate.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		E57B0B627473253F6AB1D52E7E2088D9 /* SwiftSupport */ = {
@@ -761,6 +811,14 @@
 				22FBCE7282A34B68225BB329B0118DB2 /* XCTestObservationCenter+CurrentTestCaseTracker.m */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		EF2AFD616D7E938A831AF1F3862E72EA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				276059EE0EBBF62F85F43F9C815972D3 /* HeartLikeAnimate */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		EF44781C67EF86FF7548B353025D1514 /* Support Files */ = {
@@ -814,7 +872,17 @@
 				ACEB2127A47162166BDABA88DB4578CD /* XCTestSuite+QuickTestSuiteBuilder.m */,
 				FC440A30CC8F2A07028CEA69247D0D23 /* Support Files */,
 			);
+			name = Quick;
 			path = Quick;
+			sourceTree = "<group>";
+		};
+		F4D15AE4F94E9F82E4B8F25210A2BD83 /* HeartLikeAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				A4FE7CFC409F42016764D4956EC46139 /* Images.xcassets */,
+			);
+			name = HeartLikeAnimate;
+			path = HeartLikeAnimate;
 			sourceTree = "<group>";
 		};
 		FC440A30CC8F2A07028CEA69247D0D23 /* Support Files */ = {
@@ -845,20 +913,6 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		FFC0710056796922C16AFABD5D81AC91 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				671D6E2527D0693441F6D1269355FDA6 /* FBSnapshotTestCase.framework */,
-				F4DA84E923F6B9AA0C8F2CD3463D64F3 /* HeartLikeAnimate.framework */,
-				6ACF7D75F71A54557CA78F67F11AD105 /* Nimble.framework */,
-				43ECC83E651DBA8812C8209D68A12C26 /* Nimble_Snapshots.framework */,
-				CC86886AFA72CA2AABAB6EFF8954437F /* Pods_HeartLikeAnimate_Example.framework */,
-				BF8D0F7718AE0B968CB4A5ADB0ECABA5 /* Pods_HeartLikeAnimate_Tests.framework */,
-				E578651A1A10183459ACC3E3F802B9A5 /* Quick.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		FFF9A198EB769BACBA86D01D8FAAD972 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -876,6 +930,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B0A4AA5CE095F8E2DD7C595910A5033 /* Pods-HeartLikeAnimate_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2A81EFC2D8D47BF08D041C0126D3C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0E21FB90F892E1889DEF66A9BDADAF /* HeartLikeAnimate-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -929,14 +991,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF91420EC9CC75DB08B7E447A4DD55D8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FD7304F01F6F00B13917DBAF7E22F2B1 /* HeartLikeAnimate-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BD6DD5845FCEA14C2245AE61E5B0F863 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -969,7 +1023,7 @@
 			);
 			name = Quick;
 			productName = Quick;
-			productReference = E578651A1A10183459ACC3E3F802B9A5 /* Quick.framework */;
+			productReference = 7DD229ACE8E2AA5A743630CE0C040800 /* Quick.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
@@ -986,8 +1040,44 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = 671D6E2527D0693441F6D1269355FDA6 /* FBSnapshotTestCase.framework */;
+			productReference = C07FCA9DCCA035E1AA968599E5C79894 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		373ACF06B54BA58A496ACBB6B59352E6 /* HeartLikeAnimate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37BD942AF997E43C60BD88FDF797C6ED /* Build configuration list for PBXNativeTarget "HeartLikeAnimate" */;
+			buildPhases = (
+				486E798762C9286FA02C3EDA84839B85 /* Sources */,
+				25651689826200986646AE8DC9DF48BB /* Frameworks */,
+				7B66982FECD473AE8F6491661225C7DE /* Resources */,
+				0E2A81EFC2D8D47BF08D041C0126D3C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				674F128FB3ECA9C2C860A83A13818546 /* PBXTargetDependency */,
+			);
+			name = HeartLikeAnimate;
+			productName = HeartLikeAnimate;
+			productReference = 0065A6A705E52ECA1BABE05088671ECE /* HeartLikeAnimate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5B49E2EE7E7E3DE19941564C562C1755 /* HeartLikeAnimate-HeartLikeAnimate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC6AADA1491D8BF88877D701FF1368F /* Build configuration list for PBXNativeTarget "HeartLikeAnimate-HeartLikeAnimate" */;
+			buildPhases = (
+				4328292F9C01CBFEDD990724DD136656 /* Sources */,
+				7DCBF03BB235AB18D1AD5D58E53CCC5C /* Frameworks */,
+				CE519CF786897D5C59C8F4C2AB2ADB62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HeartLikeAnimate-HeartLikeAnimate";
+			productName = "HeartLikeAnimate-HeartLikeAnimate";
+			productReference = 3E32C05EB00E52FD353A9A0D5FAE2300 /* HeartLikeAnimate.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		6B8D2C966D4D7E5D2DF4A6BADFEF6290 /* Nimble-Snapshots */ = {
 			isa = PBXNativeTarget;
@@ -1005,7 +1095,7 @@
 			);
 			name = "Nimble-Snapshots";
 			productName = "Nimble-Snapshots";
-			productReference = 43ECC83E651DBA8812C8209D68A12C26 /* Nimble_Snapshots.framework */;
+			productReference = 8821B0180781F355311768051EDA6FD7 /* Nimble_Snapshots.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A863AF1D5FA11413074F6409C1D20526 /* Pods-HeartLikeAnimate_Tests */ = {
@@ -1026,7 +1116,7 @@
 			);
 			name = "Pods-HeartLikeAnimate_Tests";
 			productName = "Pods-HeartLikeAnimate_Tests";
-			productReference = BF8D0F7718AE0B968CB4A5ADB0ECABA5 /* Pods_HeartLikeAnimate_Tests.framework */;
+			productReference = BCC5506FC3645F3F8F5E93994938C362 /* Pods_HeartLikeAnimate_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BC01D47F5465D89ACD993846B0585CF9 /* Pods-HeartLikeAnimate_Example */ = {
@@ -1044,24 +1134,7 @@
 			);
 			name = "Pods-HeartLikeAnimate_Example";
 			productName = "Pods-HeartLikeAnimate_Example";
-			productReference = CC86886AFA72CA2AABAB6EFF8954437F /* Pods_HeartLikeAnimate_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D77681C650D3B7E4D453779A4480C05A /* HeartLikeAnimate */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4EF18EEBDD676968C64D800DF3C33CB7 /* Build configuration list for PBXNativeTarget "HeartLikeAnimate" */;
-			buildPhases = (
-				4757B89E553956728708068577F539F2 /* Sources */,
-				DA45E464D13E0A13E7F4594A870C73B2 /* Frameworks */,
-				AF91420EC9CC75DB08B7E447A4DD55D8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HeartLikeAnimate;
-			productName = HeartLikeAnimate;
-			productReference = F4DA84E923F6B9AA0C8F2CD3463D64F3 /* HeartLikeAnimate.framework */;
+			productReference = 0A7DF98AD3B0AF57E67037C3E2B73C52 /* Pods_HeartLikeAnimate_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DD7C8BF89FE8053D0A2A2D88BB49CF07 /* Nimble */ = {
@@ -1078,7 +1151,7 @@
 			);
 			name = Nimble;
 			productName = Nimble;
-			productReference = 6ACF7D75F71A54557CA78F67F11AD105 /* Nimble.framework */;
+			productReference = D5550B81DE2529F8143F4BC3146ECA3A /* Nimble.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1098,12 +1171,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FFC0710056796922C16AFABD5D81AC91 /* Products */;
+			productRefGroup = 473D96840A94C7145C2B7C07F94F5F5C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
-				D77681C650D3B7E4D453779A4480C05A /* HeartLikeAnimate */,
+				373ACF06B54BA58A496ACBB6B59352E6 /* HeartLikeAnimate */,
+				5B49E2EE7E7E3DE19941564C562C1755 /* HeartLikeAnimate-HeartLikeAnimate */,
 				DD7C8BF89FE8053D0A2A2D88BB49CF07 /* Nimble */,
 				6B8D2C966D4D7E5D2DF4A6BADFEF6290 /* Nimble-Snapshots */,
 				BC01D47F5465D89ACD993846B0585CF9 /* Pods-HeartLikeAnimate_Example */,
@@ -1112,6 +1186,25 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B66982FECD473AE8F6491661225C7DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663DF16251DCA462BCC33575B06E4CFD /* HeartLikeAnimate.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE519CF786897D5C59C8F4C2AB2ADB62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F4405753B95805514C28E0A6FA1299 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3B8E072FBCB923980AC89BAC33C449B9 /* Sources */ = {
@@ -1182,6 +1275,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4328292F9C01CBFEDD990724DD136656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		46AFBC3BBC4753EC5E04BB357F5F8A55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1198,11 +1298,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4757B89E553956728708068577F539F2 /* Sources */ = {
+		486E798762C9286FA02C3EDA84839B85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80A7877F30CE00CE15BC6738898A0508 /* HeartLikeAnimate-dummy.m in Sources */,
+				CEFD8FD500CBE0DDA08AADA19EAF9F22 /* HeartAnimate.swift in Sources */,
+				C0A7448E86E0FE6CA4EFB22F1993941E /* HeartLikeAnimate-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1265,7 +1366,6 @@
 				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
 				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
 				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
-				66CBBFA6203430E100AE5FDA /* HeartAnimate.swift in Sources */,
 				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
 				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
 				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
@@ -1296,8 +1396,14 @@
 		4D5DC55E05A4703F17CD7A519E66AB4D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HeartLikeAnimate;
-			target = D77681C650D3B7E4D453779A4480C05A /* HeartLikeAnimate */;
+			target = 373ACF06B54BA58A496ACBB6B59352E6 /* HeartLikeAnimate */;
 			targetProxy = 28B2C7298F908A86956D5BF6C8212DCC /* PBXContainerItemProxy */;
+		};
+		674F128FB3ECA9C2C860A83A13818546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HeartLikeAnimate-HeartLikeAnimate";
+			target = 5B49E2EE7E7E3DE19941564C562C1755 /* HeartLikeAnimate-HeartLikeAnimate */;
+			targetProxy = D5790A5C4293C7AC3D4FDF80F1D6FD0D /* PBXContainerItemProxy */;
 		};
 		6811A59BFEEF682AF4A86C090AA78E27 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1320,38 +1426,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		062395E45D233974AE006545072F872D /* Debug */ = {
+		0C9F1E32AA3993D106A8E5FA3F87BA31 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A50EE7EE68E997A564503156FC52478 /* HeartLikeAnimate.xcconfig */;
+			baseConfigurationReference = 356C163D1B4D7D5E0A1550148D408FA1 /* HeartLikeAnimate.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HeartLikeAnimate";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HeartLikeAnimate/HeartLikeAnimate-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HeartLikeAnimate/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = "Target Support Files/HeartLikeAnimate/ResourceBundle-HeartLikeAnimate-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HeartLikeAnimate/HeartLikeAnimate.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = HeartLikeAnimate;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -1502,6 +1590,23 @@
 			};
 			name = Release;
 		};
+		4AF253FB06BE5B62275D2122D305D58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356C163D1B4D7D5E0A1550148D408FA1 /* HeartLikeAnimate.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HeartLikeAnimate";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/HeartLikeAnimate/ResourceBundle-HeartLikeAnimate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = HeartLikeAnimate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		56137D660654C8EFF14DAE1EE497C53E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DFDBF7C5033E8848F51A4CCF4585714D /* Pods-HeartLikeAnimate_Tests.debug.xcconfig */;
@@ -1611,6 +1716,40 @@
 			};
 			name = Debug;
 		};
+		728BE97BE570D0C77AE8823AED3074F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356C163D1B4D7D5E0A1550148D408FA1 /* HeartLikeAnimate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HeartLikeAnimate/HeartLikeAnimate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HeartLikeAnimate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HeartLikeAnimate/HeartLikeAnimate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HeartLikeAnimate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		790CD48B6707EDD2DDF48CDF354C60D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA0255671308ED250FF9F562B53733A7 /* Quick.xcconfig */;
@@ -1644,6 +1783,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		7C6505FC703B2DE94E5CD861EB02BD56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356C163D1B4D7D5E0A1550148D408FA1 /* HeartLikeAnimate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HeartLikeAnimate/HeartLikeAnimate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HeartLikeAnimate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HeartLikeAnimate/HeartLikeAnimate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HeartLikeAnimate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		A8657A84D34674EC35D4B7FA3354B702 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1843,40 +2017,6 @@
 			};
 			name = Debug;
 		};
-		FD7FC43C0F7691622ED500D46C400BB1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A50EE7EE68E997A564503156FC52478 /* HeartLikeAnimate.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HeartLikeAnimate/HeartLikeAnimate-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HeartLikeAnimate/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HeartLikeAnimate/HeartLikeAnimate.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = HeartLikeAnimate;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		FEE3885D11DDAFC688032BA2B65A124A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E0D73DE6C000D1A41D5EDF2817A3396E /* Nimble-Snapshots.xcconfig */;
@@ -1932,20 +2072,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		37BD942AF997E43C60BD88FDF797C6ED /* Build configuration list for PBXNativeTarget "HeartLikeAnimate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6505FC703B2DE94E5CD861EB02BD56 /* Debug */,
+				728BE97BE570D0C77AE8823AED3074F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC6AADA1491D8BF88877D701FF1368F /* Build configuration list for PBXNativeTarget "HeartLikeAnimate-HeartLikeAnimate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C9F1E32AA3993D106A8E5FA3F87BA31 /* Debug */,
+				4AF253FB06BE5B62275D2122D305D58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		439502BDB29394EE0D69336E69C8494C /* Build configuration list for PBXNativeTarget "Nimble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				114238B64B329598383B929AA0BD7233 /* Debug */,
 				2025F56713D6643167AAE121021B0D3A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4EF18EEBDD676968C64D800DF3C33CB7 /* Build configuration list for PBXNativeTarget "HeartLikeAnimate" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				062395E45D233974AE006545072F872D /* Debug */,
-				FD7FC43C0F7691622ED500D46C400BB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

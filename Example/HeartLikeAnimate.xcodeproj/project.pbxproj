@@ -18,6 +18,7 @@
 		66CBBFA220341F9200AE5FDA /* Pods_HeartLikeAnimate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CBBFA420341F9200AE5FDA /* Pods_HeartLikeAnimate_Tests.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		80B08D84EDF1E2AA837AE683 /* Pods_HeartLikeAnimate_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C6E77116A66481B94136DB /* Pods_HeartLikeAnimate_Example.framework */; };
 		8EAE7B8AE0104C749F541E33 /* Pods_HeartLikeAnimate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9D0B7967BEB064454237D5 /* Pods_HeartLikeAnimate_Tests.framework */; };
+		A840AF779A7304B0F7316873 /* Pods_HeartLikeAnimate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CBBFA420341F9200AE5FDA /* Pods_HeartLikeAnimate_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EAE7B8AE0104C749F541E33 /* Pods_HeartLikeAnimate_Tests.framework in Frameworks */,
+				A840AF779A7304B0F7316873 /* Pods_HeartLikeAnimate_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

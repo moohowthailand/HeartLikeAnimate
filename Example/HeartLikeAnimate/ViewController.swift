@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import HeartLikeAnimate
 
 class ViewController: UIViewController {
 
@@ -25,7 +26,7 @@ class ViewController: UIViewController {
         imageView?.isUserInteractionEnabled = true
         imageView?.addGestureRecognizer(tapGestureRecognizer)
         imageView?.addGestureRecognizer(tapGestureRecognizer2)
-        guard let url = Bundle.main.url(forResource: "Heart-Like", withExtension: "mp3") else { return }
+        guard let url = Bundle.main.url(forResource: "heartsound", withExtension: "mp3") else { return }
         do {
             try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
             try AVAudioSession.sharedInstance().setActive(true)
@@ -43,23 +44,23 @@ class ViewController: UIViewController {
         switch tapGestureRecognizer.state {
         case .began:
             timeClicked = Date()
-//            self.imageView = HeartAnimate().animateHoldStart(likeValue: 30, imageView: imageView)
-//            HeartAnimate().playSound(player: self.player!, currentLike: 30)
+            self.imageView = HeartAnimate().animateHoldStart(likeValue: 0, imageView: imageView)
+            HeartAnimate().playSound(player: self.player!, currentLike: 0)
         case .ended:
             timeReleased = Date()
-//            self.imageView = HeartAnimate().animateHoldStop(currentLike: 0,imageView: imageView ,timeClicked: timeClicked! , timeReleased: timeReleased!)
-//            HeartAnimate().stopSound(player: player!)
+            self.imageView = HeartAnimate().animateHoldStop(currentLike: 0,imageView: imageView ,timeClicked: timeClicked! , timeReleased: timeReleased!)
+            HeartAnimate().stopSound(player: player!)
             print(imageView.tag)
         default: break
         }
     }
     
     @objc func imageClick(tapGestureRecognizer: UITapGestureRecognizer) {
-//        self.imageView = HeartAnimate().animateClickStart(likeValue: 0, imageView: imageView)
+        self.imageView = HeartAnimate().animateClickStart(likeValue: 0, imageView: imageView)
     }
     
     func initSound(player:AVAudioPlayer) {
-        guard let url = Bundle.main.url(forResource: "Heart-Like", withExtension: "mp3") else { return }
+        guard let url = Bundle.main.url(forResource: "heartsound", withExtension: "mp3") else { return }
         do {
             try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
             try AVAudioSession.sharedInstance().setActive(true)
